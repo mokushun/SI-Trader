@@ -1,0 +1,35 @@
+== USD_JPY Fridays ==
+  A calendar-gotobi Fri : n=60 mean=+7.57pip PF=1.645 t=1.53 win=58.3%
+  B effective-gotobi Fri: n=184 mean=-1.40pip PF=0.902 t=-0.46 win=52.2%
+  C other Fri           : n=68 mean=+1.02pip PF=1.073 t=0.21 win=52.9%
+  Tue after Mon-gotobi  : n=61 mean=+7.41pip PF=1.826 t=1.40 win=54.1%
+  Tue other             : n=252 mean=+4.98pip PF=1.528 t=2.42 win=57.9%
+== GBP_JPY Fridays ==
+  A calendar-gotobi Fri : n=60 mean=+1.71pip PF=1.096 t=0.25 win=55.0%
+  B effective-gotobi Fri: n=184 mean=+0.01pip PF=1.000 t=0.00 win=55.4%
+  C other Fri           : n=68 mean=-11.14pip PF=0.594 t=-1.55 win=42.6%
+  Tue after Mon-gotobi  : n=61 mean=+8.72pip PF=1.698 t=1.20 win=50.8%
+  Tue other             : n=252 mean=+6.40pip PF=1.488 t=2.28 win=57.5%
+== AUD_JPY Fridays ==
+  A calendar-gotobi Fri : n=60 mean=-3.51pip PF=0.726 t=-0.94 win=51.7%
+  B effective-gotobi Fri: n=184 mean=-0.75pip PF=0.942 t=-0.28 win=50.5%
+  C other Fri           : n=68 mean=-10.55pip PF=0.483 t=-2.02 win=41.2%
+  Tue after Mon-gotobi  : n=61 mean=+0.50pip PF=1.040 t=0.10 win=52.5%
+  Tue other             : n=252 mean=+1.33pip PF=1.143 t=0.73 win=54.0%
+== EUR_JPY Fridays ==
+  A calendar-gotobi Fri : n=60 mean=+7.85pip PF=1.799 t=1.62 win=60.0%
+  B effective-gotobi Fri: n=184 mean=+0.21pip PF=1.014 t=0.07 win=56.0%
+  C other Fri           : n=68 mean=-5.22pip PF=0.712 t=-1.04 win=41.2%
+  Tue after Mon-gotobi  : n=61 mean=+1.94pip PF=1.160 t=0.35 win=52.5%
+  Tue other             : n=252 mean=+4.35pip PF=1.407 t=1.96 win=57.1%
+== CHF_JPY Fridays ==
+  A calendar-gotobi Fri : n=60 mean=+9.37pip PF=2.101 t=2.21 win=61.7%
+  B effective-gotobi Fri: n=184 mean=+1.02pip PF=1.072 t=0.34 win=51.6%
+  C other Fri           : n=68 mean=+4.60pip PF=1.409 t=0.90 win=44.1%
+  Tue after Mon-gotobi  : n=61 mean=-0.34pip PF=0.975 t=-0.07 win=45.9%
+  Tue other             : n=252 mean=+2.57pip PF=1.237 t=1.19 win=53.6%
+USD_JPY: Mon: n=61 mean=-2.11 | Sat: n=63 mean=+4.93 | Sun: n=60 mean=-7.33
+GBP_JPY: Mon: n=61 mean=+2.00 | Sat: n=63 mean=+2.62 | Sun: n=60 mean=-4.75
+AUD_JPY: Mon: n=61 mean=+0.23 | Sat: n=63 mean=+2.54 | Sun: n=60 mean=-5.22
+EUR_JPY: Mon: n=61 mean=+1.12 | Sat: n=63 mean=+5.64 | Sun: n=60 mean=-6.41
+CHF_JPY: Mon: n=61 mean=+3.11 | Sat: n=63 mean=+4.48 | Sun: n=60 mean=-4.73
