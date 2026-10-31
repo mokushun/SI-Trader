@@ -168,7 +168,7 @@ def main() -> None:
             f"<td class='key'>{r['key']}</td></tr>"
             for r in rows
         )
-        day_blocks += f"<h3>{head}</h3><table><tr><th>記者</th><th>予想</th><th>上昇確率</th><th>結果</th><th>根拠（第1要因）</th></tr>{trs}</table>"
+        day_blocks += f"<h3>{head}</h3><table><tr><th>記者</th><th>予想</th><th class='num'>上昇確率</th><th>結果</th><th>根拠（第1要因）</th></tr>{trs}</table>"
 
     # 成績表
     def stat_rows(scope_rows):
@@ -197,7 +197,12 @@ def main() -> None:
   h3 {{ font-size: 15.5px; margin: 20px 0 6px; color:#333; }}
   table {{ width:100%; border-collapse: collapse; font-size: 13.5px; }}
   th, td {{ border-bottom: 1px solid #ddd; padding: 5px 6px; text-align: left; vertical-align: top; }}
-  td.num {{ text-align: right; font-variant-numeric: tabular-nums; }}
+  th.num, td.num {{ text-align: right; font-variant-numeric: tabular-nums; }}
+  table.flow {{ max-width: 520px; }}
+  table.flow th:nth-child(1), table.flow td:nth-child(1) {{ width: 34%; }}
+  table.flow th:nth-child(2), table.flow td:nth-child(2) {{ width: 33%; }}
+  table.flow th:nth-child(3), table.flow td:nth-child(3) {{ width: 33%; }}
+  table.stats {{ max-width: 680px; }}
   td.key {{ color:#555; font-size: 12.5px; }}
   .v-的中 {{ color:#1c6e1c; font-weight:bold; }} .v-外れ {{ color:#b02020; font-weight:bold; }} .v-様子見 {{ color:#8a6d1c; }}
   footer {{ margin-top: 34px; border-top: 1px solid #999; padding-top: 8px; font-size: 11.5px; color:#777; line-height:1.7; }}
@@ -210,16 +215,16 @@ def main() -> None:
   <p>AI記者たちのS&amp;P500終値予想について、その週の推移・経過・結果をまとめた記録です。毎朝、朝刊の発行に合わせて更新されます。</p>
 
   <h2>週の流れ（SPX終値）</h2>
-  <table><tr><th>日付（ET）</th><th>終値</th><th>前日比</th></tr>{flow_rows}</table>
+  <table class="flow"><tr><th>日付（ET）</th><th class="num">終値</th><th class="num">前日比</th></tr>{flow_rows}</table>
 
   <h2>日別の予想と結果</h2>
   {day_blocks}
 
   <h2>記者別成績（この週）</h2>
-  <table><tr><th>記者</th><th>予想数</th><th>的中</th><th>外れ</th><th>様子見</th><th>的中率</th><th>平均Brier</th></tr>{stat_rows(week)}</table>
+  <table class="stats"><tr><th>記者</th><th class="num">予想数</th><th class="num">的中</th><th class="num">外れ</th><th class="num">様子見</th><th class="num">的中率</th><th class="num">平均Brier</th></tr>{stat_rows(week)}</table>
 
   <h2>記者別成績（シーズン通算）</h2>
-  <table><tr><th>記者</th><th>予想数</th><th>的中</th><th>外れ</th><th>様子見</th><th>的中率</th><th>平均Brier</th></tr>{stat_rows(season)}</table>
+  <table class="stats"><tr><th>記者</th><th class="num">予想数</th><th class="num">的中</th><th class="num">外れ</th><th class="num">様子見</th><th class="num">的中率</th><th class="num">平均Brier</th></tr>{stat_rows(season)}</table>
 
   <footer>
     集計定義: 的中 = bias の方向と実際の上げ下げが一致（neutral は様子見として的中率の分母から除外）。
