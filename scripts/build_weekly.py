@@ -38,6 +38,8 @@ MODEL_NAMES = {
     "gpt-oss-120b-medium": "GPT記者",
     "muse": "Muse記者",
     "muse-spark": "Muse記者",
+    "codex": "Codex記者",
+    "codex_2": "Codex記者",
 }
 BIAS_JA = {"bullish": "強気", "bearish": "弱気", "neutral": "中立"}
 
@@ -69,8 +71,12 @@ def load_closes() -> dict:
 
 def load_judgments() -> list:
     items = []
-    for f in sorted(JUDGMENTS.glob("*_close_*.json")):
-        if "_2" in f.stem:
+    all_files = sorted(JUDGMENTS.glob("*_close_*.json"))
+    stems = {f.stem for f in all_files}
+    for f in all_files:
+        # _2 は同一モデルの再実行分として除外する。ただし相方（_2なし）が無い場合は
+        # そのモデル自体のファイル名（例: codex_2）なので除外しない
+        if f.stem.endswith("_2") and f.stem[:-2] in stems:
             continue
         try:
             d = json.loads(f.read_text())
