@@ -11,7 +11,8 @@
 
 材料と定義:
 - 判断: ~/workspace/ai-repo/projects/spx-judgment/judgments/<JST日付>_close_<model>.json
-  （同一モデル・同一日の _2 ファイルは再実行分として除外し、初回分を採用）
+  （同一記者・同一日に複数のファイルがある場合は _2 でない方を優先し、無ければ _2 を採用。
+   モデル表記ゆれ（codex_2 / codex_gpt-6-luna 等）は prefix で canonical な記者名に寄せる）
 - SPX終値: FRED SP500 系列（fredgraph CSV、キー不要）を正とし、未公表の最新日だけ
   ~/spx_data/spx_options.sqlite3 の当日最終スナップショットで補う。出所はページに明記。
 - 的中判定: bias が bullish で上昇 / bearish で下落 = 的中、neutral = 様子見、それ以外は外れ。
@@ -41,6 +42,19 @@ MODEL_NAMES = {
     "codex": "Codex記者",
     "codex_2": "Codex記者",
 }
+
+
+def reporter_name(model: str) -> str:
+    # ファイル名のモデル表記ゆれを canonical な記者名に寄せる
+    # （例: codex_2 / codex_gpt-6-luna → Codex記者、gpt-oss-120b-medium_2 → GPT記者）
+    for prefix, name in (("claude-sonnet", "Sonnet記者"),
+                         ("gemini", "Gemini記者"),
+                         ("gpt-oss", "GPT記者"),
+                         ("codex", "Codex記者"),
+                         ("muse", "Muse記者")):
+        if model.startswith(prefix):
+            return name
+    return MODEL_NAMES.get(model, model)
 BIAS_JA = {"bullish": "強気", "bearish": "弱気", "neutral": "中立"}
 
 
@@ -70,14 +84,17 @@ def load_closes() -> dict:
 
 
 def load_judgments() -> list:
+    # 同一記者・同一日に複数の判断ファイルがある場合（再実行の _2 等）は、
+    # _2 でない方を優先し、無ければ _2 を採用する（記者単位で1件に寄せる）
+    chosen = {}
+    for f in sorted(JUDGMENTS.glob("*_close_*.json")):
+        model = f.stem.split("_close_", 1)[1]
+        key = (f.name[:10], reporter_name(model))
+        prev = chosen.get(key)
+        if prev is None or (prev.stem.endswith("_2") and not f.stem.endswith("_2")):
+            chosen[key] = f
     items = []
-    all_files = sorted(JUDGMENTS.glob("*_close_*.json"))
-    stems = {f.stem for f in all_files}
-    for f in all_files:
-        # _2 は同一モデルの再実行分として除外する。ただし相方（_2なし）が無い場合は
-        # そのモデル自体のファイル名（例: codex_2）なので除外しない
-        if f.stem.endswith("_2") and f.stem[:-2] in stems:
-            continue
+    for f in sorted(chosen.values()):
         try:
             d = json.loads(f.read_text())
         except Exception:
@@ -87,7 +104,7 @@ def load_judgments() -> list:
         items.append({
             "run_date": f.name[:10],
             "model": model,
-            "name": MODEL_NAMES.get(model, model),
+            "name": reporter_name(model),
             "target": j.get("target_date"),
             "bias": j.get("bias"),
             "p_up": j.get("p_up"),
