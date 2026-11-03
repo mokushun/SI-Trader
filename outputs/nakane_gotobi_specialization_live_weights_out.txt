@@ -1,0 +1,15 @@
+===== PRE 2015-20.9 (yen = pip x units / 100) =====
+LIVE             days=1183 | month mean=    +2802yen worst=   -48862 pos=59% t=1.21 total=   +193353yen worst-day=  -26294
+NOBONUS          days=1183 | month mean=     -279yen worst=   -52175 pos=49% t=-0.17 total=    -19247yen worst-day=  -25172
+GOTOBI-ONLY-LIVE days= 230 | month mean=    +5254yen worst=   -36640 pos=58% t=2.34 total=   +362543yen worst-day=  -26294
+
+===== POST 2020.10-26 (yen = pip x units / 100) =====
+LIVE             days=1259 | month mean=   +13395yen worst=   -36003 pos=70% t=4.63 total=   +977814yen worst-day=  -33843
+NOBONUS          days=1259 | month mean=    +7517yen worst=   -40178 pos=70% t=3.73 total=   +548775yen worst-day=  -33843
+GOTOBI-ONLY-LIVE days= 244 | month mean=    +9779yen worst=   -27555 pos=66% t=3.75 total=   +713884yen worst-day=  -30751
+
+===== FULL 2015-26 (yen = pip x units / 100) =====
+LIVE             days=2442 | month mean=    +8248yen worst=   -48862 pos=65% t=4.30 total=  +1171167yen worst-day=  -33843
+NOBONUS          days=2442 | month mean=    +3729yen worst=   -52175 pos=60% t=2.74 total=   +529528yen worst-day=  -33843
+GOTOBI-ONLY-LIVE days= 474 | month mean=    +7580yen worst=   -36640 pos=62% t=4.36 total=  +1076427yen worst-day=  -30751
+
