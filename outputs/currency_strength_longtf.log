@@ -1,0 +1,103 @@
+/home/hatch/workspace/SI-Trader/scripts/currency_strength_longtf.py:111: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  yrs = np.array([datetime.datetime.utcfromtimestamp(int(t)).year for t in ts])
+/home/hatch/workspace/SI-Trader/scripts/currency_strength_longtf.py:112: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  jst_hour = np.array([datetime.datetime.utcfromtimestamp(int(t) + 9 * 3600).hour for t in ts])
+4h L= 2 H=1 mom n= 4345 net= -0.0199 gross= -0.0017 win=44.5 t= -5.41 wknd=0% | con net= -0.0165 gross=  0.0017
+4h L= 2 H=3 mom n= 4343 net= -0.0200 gross= -0.0018 win=45.9 t= -3.21 wknd=7% | con net= -0.0163 gross=  0.0018
+4h L= 2 H=6 mom n= 4340 net= -0.0324 gross= -0.0142 win=47.8 t= -3.74 wknd=18% | con net= -0.0040 gross=  0.0142
+4h L= 6 H=1 mom n= 4339 net= -0.0227 gross= -0.0048 win=44.0 t= -6.08 wknd=0% | con net= -0.0132 gross=  0.0048
+4h L= 6 H=3 mom n= 4337 net= -0.0291 gross= -0.0111 win=46.0 t= -4.55 wknd=7% | con net= -0.0069 gross=  0.0111
+4h L= 6 H=6 mom n= 4334 net= -0.0397 gross= -0.0217 win=46.4 t= -4.56 wknd=18% | con net=  0.0038 gross=  0.0217
+4h L=12 H=1 mom n= 4317 net= -0.0225 gross= -0.0046 win=44.0 t= -6.17 wknd=0% | con net= -0.0133 gross=  0.0046
+4h L=12 H=3 mom n= 4315 net= -0.0250 gross= -0.0071 win=45.7 t= -3.93 wknd=7% | con net= -0.0108 gross=  0.0071
+4h L=12 H=6 mom n= 4312 net= -0.0315 gross= -0.0136 win=46.5 t= -3.61 wknd=18% | con net= -0.0043 gross=  0.0136
+4h L=24 H=1 mom n= 4231 net= -0.0179 gross= -0.0001 win=45.0 t= -4.67 wknd=0% | con net= -0.0178 gross=  0.0001
+4h L=24 H=3 mom n= 4229 net= -0.0207 gross= -0.0028 win=47.0 t= -3.13 wknd=7% | con net= -0.0150 gross=  0.0028
+4h L=24 H=6 mom n= 4226 net= -0.0177 gross=  0.0001 win=49.0 t= -1.96 wknd=17% | con net= -0.0180 gross= -0.0001
+8h L= 3 H=1 mom n= 2171 net= -0.0326 gross= -0.0135 win=45.0 t= -4.39 wknd=0% | con net= -0.0055 gross=  0.0135
+8h L= 3 H=3 mom n= 2157 net= -0.0505 gross= -0.0315 win=45.3 t= -4.15 wknd=13% | con net=  0.0125 gross=  0.0315
+8h L= 3 H=6 mom n= 2132 net= -0.0379 gross= -0.0189 win=47.0 t= -2.28 wknd=34% | con net= -0.0000 gross=  0.0189
+8h L= 6 H=1 mom n= 2144 net= -0.0249 gross= -0.0059 win=45.3 t= -3.46 wknd=0% | con net= -0.0130 gross=  0.0059
+8h L= 6 H=3 mom n= 2130 net= -0.0272 gross= -0.0084 win=46.8 t= -2.23 wknd=14% | con net= -0.0104 gross=  0.0084
+8h L= 6 H=6 mom n= 2105 net= -0.0186 gross=  0.0004 win=48.9 t= -1.10 wknd=34% | con net= -0.0193 gross= -0.0004
+8h L=12 H=1 mom n= 2060 net= -0.0178 gross=  0.0010 win=47.0 t= -2.32 wknd=0% | con net= -0.0198 gross= -0.0010
+8h L=12 H=3 mom n= 2048 net= -0.0218 gross= -0.0031 win=48.1 t= -1.71 wknd=13% | con net= -0.0155 gross=  0.0031
+8h L=12 H=6 mom n= 2031 net= -0.0129 gross=  0.0060 win=48.9 t= -0.73 wknd=33% | con net= -0.0249 gross= -0.0060
+
+=== by JST start hour (mid configs, momentum) ===
+-- 4h L=12 H=6
+  start 01 JST n= 729 net= -0.0463 gross= -0.0227 win=45.5
+  start 05 JST n= 669 net= -0.0188 gross= -0.0015 win=45.6
+  start 09 JST n= 724 net= -0.0395 gross= -0.0223 win=46.8
+  start 13 JST n= 730 net= -0.0202 gross= -0.0034 win=47.5
+  start 17 JST n= 730 net= -0.0307 gross= -0.0143 win=46.8
+  start 21 JST n= 730 net= -0.0327 gross= -0.0167 win=46.8
+-- 8h L=6 H=3
+  start 01 JST n= 706 net= -0.0339 gross= -0.0104 win=45.8
+  start 09 JST n= 712 net= -0.0176 gross= -0.0007 win=48.3
+  start 17 JST n= 712 net= -0.0302 gross= -0.0142 win=46.2
+
+=== momentum by year ===
+4h L= 2 H=1 2024 n= 1534 net= -0.0232 gross= -0.0061 t= -3.53
+4h L= 2 H=1 2025 n= 1528 net= -0.0178 gross=  0.0010 t= -2.71
+4h L= 2 H=1 2026 n= 1283 net= -0.0186 gross=  0.0003 t= -3.26
+4h L= 2 H=3 2024 n= 1534 net= -0.0217 gross= -0.0047 t= -1.94
+4h L= 2 H=3 2025 n= 1528 net= -0.0184 gross=  0.0004 t= -1.67
+4h L= 2 H=3 2026 n= 1281 net= -0.0200 gross= -0.0011 t= -2.04
+4h L= 2 H=6 2024 n= 1534 net= -0.0305 gross= -0.0134 t= -1.97
+4h L= 2 H=6 2025 n= 1528 net= -0.0361 gross= -0.0172 t= -2.34
+4h L= 2 H=6 2026 n= 1278 net= -0.0303 gross= -0.0115 t= -2.24
+4h L= 6 H=1 2024 n= 1530 net= -0.0223 gross= -0.0056 t= -3.21
+4h L= 6 H=1 2025 n= 1527 net= -0.0272 gross= -0.0087 t= -4.14
+4h L= 6 H=1 2026 n= 1282 net= -0.0180 gross=  0.0010 t= -3.26
+4h L= 6 H=3 2024 n= 1530 net= -0.0238 gross= -0.0071 t= -2.05
+4h L= 6 H=3 2025 n= 1527 net= -0.0445 gross= -0.0261 t= -3.92
+4h L= 6 H=3 2026 n= 1280 net= -0.0169 gross=  0.0021 t= -1.78
+4h L= 6 H=6 2024 n= 1530 net= -0.0279 gross= -0.0112 t= -1.74
+4h L= 6 H=6 2025 n= 1527 net= -0.0604 gross= -0.0420 t= -4.01
+4h L= 6 H=6 2026 n= 1277 net= -0.0291 gross= -0.0102 t= -2.17
+4h L=12 H=1 2024 n= 1522 net= -0.0227 gross= -0.0063 t= -3.34
+4h L=12 H=1 2025 n= 1519 net= -0.0218 gross= -0.0033 t= -3.43
+4h L=12 H=1 2026 n= 1276 net= -0.0231 gross= -0.0042 t= -4.26
+4h L=12 H=3 2024 n= 1522 net= -0.0284 gross= -0.0119 t= -2.44
+4h L=12 H=3 2025 n= 1519 net= -0.0198 gross= -0.0013 t= -1.75
+4h L=12 H=3 2026 n= 1274 net= -0.0271 gross= -0.0082 t= -2.86
+4h L=12 H=6 2024 n= 1522 net= -0.0218 gross= -0.0053 t= -1.37
+4h L=12 H=6 2025 n= 1519 net= -0.0367 gross= -0.0182 t= -2.38
+4h L=12 H=6 2026 n= 1271 net= -0.0370 gross= -0.0181 t= -2.79
+4h L=24 H=1 2024 n= 1490 net= -0.0120 gross=  0.0043 t= -1.76
+4h L=24 H=1 2025 n= 1482 net= -0.0266 gross= -0.0081 t= -3.80
+4h L=24 H=1 2026 n= 1259 net= -0.0146 gross=  0.0042 t= -2.58
+4h L=24 H=3 2024 n= 1490 net= -0.0001 gross=  0.0163 t= -0.00
+4h L=24 H=3 2025 n= 1482 net= -0.0462 gross= -0.0278 t= -3.84
+4h L=24 H=3 2026 n= 1257 net= -0.0150 gross=  0.0039 t= -1.52
+4h L=24 H=6 2024 n= 1490 net=  0.0250 gross=  0.0414 t=  1.58
+4h L=24 H=6 2025 n= 1482 net= -0.0634 gross= -0.0449 t= -3.88
+4h L=24 H=6 2026 n= 1254 net= -0.0146 gross=  0.0043 t= -1.04
+8h L= 3 H=1 2024 n=  752 net= -0.0264 gross= -0.0094 t= -1.95
+8h L= 3 H=1 2025 n=  777 net= -0.0416 gross= -0.0217 t= -3.15
+8h L= 3 H=1 2026 n=  642 net= -0.0288 gross= -0.0085 t= -2.60
+8h L= 3 H=3 2024 n=  742 net= -0.0371 gross= -0.0200 t= -1.63
+8h L= 3 H=3 2025 n=  777 net= -0.0645 gross= -0.0447 t= -3.10
+8h L= 3 H=3 2026 n=  638 net= -0.0490 gross= -0.0287 t= -2.64
+8h L= 3 H=6 2024 n=  727 net=  0.0117 gross=  0.0288 t=  0.36
+8h L= 3 H=6 2025 n=  773 net= -0.0589 gross= -0.0393 t= -2.17
+8h L= 3 H=6 2026 n=  632 net= -0.0692 gross= -0.0489 t= -2.76
+8h L= 6 H=1 2024 n=  734 net= -0.0205 gross= -0.0037 t= -1.49
+8h L= 6 H=1 2025 n=  774 net= -0.0219 gross= -0.0019 t= -1.76
+8h L= 6 H=1 2026 n=  636 net= -0.0336 gross= -0.0135 t= -3.24
+8h L= 6 H=3 2024 n=  724 net= -0.0186 gross= -0.0015 t= -0.81
+8h L= 6 H=3 2025 n=  774 net= -0.0208 gross= -0.0013 t= -0.99
+8h L= 6 H=3 2026 n=  632 net= -0.0450 gross= -0.0251 t= -2.45
+8h L= 6 H=6 2024 n=  709 net=  0.0412 gross=  0.0582 t=  1.29
+8h L= 6 H=6 2025 n=  770 net= -0.0538 gross= -0.0342 t= -1.83
+8h L= 6 H=6 2026 n=  626 net= -0.0429 gross= -0.0226 t= -1.77
+8h L=12 H=1 2024 n=  686 net= -0.0032 gross=  0.0135 t= -0.22
+8h L=12 H=1 2025 n=  753 net= -0.0336 gross= -0.0138 t= -2.47
+8h L=12 H=1 2026 n=  621 net= -0.0147 gross=  0.0051 t= -1.35
+8h L=12 H=3 2024 n=  678 net=  0.0253 gross=  0.0420 t=  1.08
+8h L=12 H=3 2025 n=  753 net= -0.0675 gross= -0.0478 t= -3.03
+8h L=12 H=3 2026 n=  617 net= -0.0177 gross=  0.0018 t= -0.91
+8h L=12 H=6 2024 n=  669 net=  0.0937 gross=  0.1109 t=  2.77
+8h L=12 H=6 2025 n=  751 net= -0.1084 gross= -0.0885 t= -3.61
+8h L=12 H=6 2026 n=  611 net= -0.0120 gross=  0.0075 t= -0.46

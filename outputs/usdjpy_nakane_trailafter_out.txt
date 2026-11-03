@@ -1,0 +1,62 @@
+
+===== USD_JPY (all n=1257, non-Thu n=942) =====
+ALL base (Thu 05:35 / else 09:55 fixed): n=1257 mean=+3.76pip PF=1.324 win=56.4% t=3.31
+non-Thu base 09:55 fixed: n=942 mean=+3.61pip PF=1.314 win=56.3% t=2.86
+non-Thu trail d=10 cap 11:00 P: n=942 mean=+2.52pip PF=1.205 win=55.5% t=1.97
+non-Thu trail d=10 cap 11:00 O: n=942 mean=+1.93pip PF=1.154 win=55.0% t=1.51
+non-Thu trail d=10 cap 15:00 P: n=942 mean=+2.67pip PF=1.215 win=54.7% t=2.07
+non-Thu trail d=10 cap 15:00 O: n=942 mean=+2.00pip PF=1.158 win=54.1% t=1.55
+non-Thu trail d=20 cap 11:00 P: n=942 mean=+2.09pip PF=1.159 win=54.0% t=1.57
+non-Thu trail d=20 cap 11:00 O: n=942 mean=+1.98pip PF=1.151 win=54.0% t=1.50
+non-Thu trail d=20 cap 15:00 P: n=942 mean=+2.55pip PF=1.189 win=52.4% t=1.87
+non-Thu trail d=20 cap 15:00 O: n=942 mean=+2.40pip PF=1.178 win=52.4% t=1.77
+
+===== EUR_JPY (all n=1247, non-Thu n=942) =====
+ALL base (Thu 05:35 / else 09:55 fixed): n=1247 mean=+2.61pip PF=1.211 win=54.9% t=2.33
+non-Thu base 09:55 fixed: n=942 mean=+2.82pip PF=1.226 win=55.4% t=2.17
+non-Thu trail d=10 cap 11:00 P: n=940 mean=+1.65pip PF=1.126 win=53.8% t=1.26
+non-Thu trail d=10 cap 11:00 O: n=940 mean=+1.01pip PF=1.075 win=53.2% t=0.77
+non-Thu trail d=10 cap 15:00 P: n=942 mean=+1.72pip PF=1.131 win=53.3% t=1.31
+non-Thu trail d=10 cap 15:00 O: n=942 mean=+1.05pip PF=1.078 win=52.7% t=0.80
+non-Thu trail d=20 cap 11:00 P: n=940 mean=+1.16pip PF=1.085 win=52.3% t=0.87
+non-Thu trail d=20 cap 11:00 O: n=940 mean=+1.01pip PF=1.073 win=52.1% t=0.75
+non-Thu trail d=20 cap 15:00 P: n=942 mean=+1.61pip PF=1.114 win=51.8% t=1.17
+non-Thu trail d=20 cap 15:00 O: n=942 mean=+1.40pip PF=1.099 win=51.6% t=1.02
+
+===== GBP_JPY (all n=1257, non-Thu n=942) =====
+ALL base (Thu 05:35 / else 09:55 fixed): n=1257 mean=+3.90pip PF=1.248 win=55.9% t=2.66
+non-Thu base 09:55 fixed: n=942 mean=+3.40pip PF=1.214 win=55.9% t=2.05
+non-Thu trail d=10 cap 11:00 P: n=942 mean=+1.83pip PF=1.109 win=53.3% t=1.09
+non-Thu trail d=10 cap 11:00 O: n=942 mean=+0.87pip PF=1.051 win=52.9% t=0.52
+non-Thu trail d=10 cap 15:00 P: n=942 mean=+1.84pip PF=1.110 win=53.1% t=1.10
+non-Thu trail d=10 cap 15:00 O: n=942 mean=+0.87pip PF=1.051 win=52.7% t=0.52
+non-Thu trail d=20 cap 11:00 P: n=942 mean=+1.51pip PF=1.088 win=53.2% t=0.89
+non-Thu trail d=20 cap 11:00 O: n=942 mean=+1.37pip PF=1.079 win=53.1% t=0.81
+non-Thu trail d=20 cap 15:00 P: n=942 mean=+1.86pip PF=1.106 win=52.7% t=1.08
+non-Thu trail d=20 cap 15:00 O: n=942 mean=+1.71pip PF=1.097 win=52.5% t=0.99
+
+===== AUD_JPY (all n=1257, non-Thu n=942) =====
+ALL base (Thu 05:35 / else 09:55 fixed): n=1257 mean=+0.90pip PF=1.082 win=53.6% t=0.92
+non-Thu base 09:55 fixed: n=942 mean=+0.75pip PF=1.067 win=53.8% t=0.68
+non-Thu trail d=10 cap 11:00 P: n=942 mean=-0.05pip PF=0.996 win=53.5% t=-0.05
+non-Thu trail d=10 cap 11:00 O: n=942 mean=-0.41pip PF=0.966 win=53.5% t=-0.36
+non-Thu trail d=10 cap 15:00 P: n=942 mean=+0.22pip PF=1.018 win=53.1% t=0.19
+non-Thu trail d=10 cap 15:00 O: n=942 mean=-0.21pip PF=0.982 win=53.0% t=-0.19
+non-Thu trail d=20 cap 11:00 P: n=942 mean=+0.39pip PF=1.031 win=54.6% t=0.33
+non-Thu trail d=20 cap 11:00 O: n=942 mean=+0.32pip PF=1.026 win=54.6% t=0.27
+non-Thu trail d=20 cap 15:00 P: n=942 mean=+1.50pip PF=1.118 win=52.8% t=1.20
+non-Thu trail d=20 cap 15:00 O: n=942 mean=+1.14pip PF=1.089 win=52.4% t=0.92
+
+===== CHF_JPY (all n=1255, non-Thu n=942) =====
+ALL base (Thu 05:35 / else 09:55 fixed): n=1255 mean=+2.35pip PF=1.202 win=52.2% t=2.25
+non-Thu base 09:55 fixed: n=942 mean=+2.97pip PF=1.257 win=52.4% t=2.44
+non-Thu trail d=10 cap 11:00 P: n=942 mean=+1.08pip PF=1.085 win=48.5% t=0.88
+non-Thu trail d=10 cap 11:00 O: n=942 mean=+0.61pip PF=1.047 win=47.8% t=0.50
+non-Thu trail d=10 cap 15:00 P: n=942 mean=+1.30pip PF=1.102 win=48.9% t=1.06
+non-Thu trail d=10 cap 15:00 O: n=942 mean=+0.81pip PF=1.063 win=48.2% t=0.66
+non-Thu trail d=20 cap 11:00 P: n=942 mean=+0.74pip PF=1.056 win=50.3% t=0.59
+non-Thu trail d=20 cap 11:00 O: n=942 mean=+0.66pip PF=1.050 win=50.1% t=0.53
+non-Thu trail d=20 cap 15:00 P: n=942 mean=+1.24pip PF=1.091 win=51.3% t=0.96
+non-Thu trail d=20 cap 15:00 O: n=942 mean=+1.17pip PF=1.086 win=51.2% t=0.91
+
+DONE (M1 approximation; swap not included)

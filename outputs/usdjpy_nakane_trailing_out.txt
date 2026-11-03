@@ -1,0 +1,42 @@
+
+===== USD_JPY (n=1257) =====
+no trailing (base): n=1257 mean=+3.76pip PF=1.324 win=56.4% t=3.31
+trailing P (pessimistic order): n=1257 mean=+3.15pip PF=1.273 win=56.9% t=3.01
+trailing O (optimistic order): n=1257 mean=+3.15pip PF=1.273 win=56.9% t=3.01
+armed rate: 10.3%  stopped-before-exit: P 9.2% / O 9.2%
+among armed trades (n=130): base mean=+65.05  trailP mean=+59.18  trailO mean=+59.17
+gotobi (n=243): base mean=+8.62 PF=1.881 | trailP mean=+6.65 PF=1.680 | armed 11%
+
+===== EUR_JPY (n=1247) =====
+no trailing (base): n=1247 mean=+2.61pip PF=1.211 win=54.9% t=2.33
+trailing P (pessimistic order): n=1247 mean=+2.20pip PF=1.180 win=55.3% t=2.13
+trailing O (optimistic order): n=1247 mean=+2.22pip PF=1.181 win=55.3% t=2.14
+armed rate: 9.8%  stopped-before-exit: P 9.2% / O 9.3%
+among armed trades (n=122): base mean=+64.11  trailP mean=+59.89  trailO mean=+60.05
+gotobi (n=241): base mean=+9.39 PF=2.053 | trailP mean=+7.08 PF=1.794 | armed 12%
+
+===== GBP_JPY (n=1257) =====
+no trailing (base): n=1257 mean=+3.90pip PF=1.248 win=55.9% t=2.66
+trailing P (pessimistic order): n=1257 mean=+2.60pip PF=1.168 win=57.0% t=2.05
+trailing O (optimistic order): n=1257 mean=+2.53pip PF=1.163 win=57.0% t=2.00
+armed rate: 16.8%  stopped-before-exit: P 15.6% / O 15.7%
+among armed trades (n=211): base mean=+66.71  trailP mean=+58.93  trailO mean=+58.51
+gotobi (n=243): base mean=+9.82 PF=1.779 | trailP mean=+6.53 PF=1.539 | armed 18%
+
+===== AUD_JPY (n=1257) =====
+no trailing (base): n=1257 mean=+0.90pip PF=1.082 win=53.6% t=0.92
+trailing P (pessimistic order): n=1257 mean=+0.61pip PF=1.056 win=53.8% t=0.69
+trailing O (optimistic order): n=1257 mean=+0.58pip PF=1.053 win=53.8% t=0.66
+armed rate: 6.5%  stopped-before-exit: P 5.8% / O 5.9%
+among armed trades (n=82): base mean=+62.89  trailP mean=+58.46  trailO mean=+58.01
+gotobi (n=243): base mean=+4.76 PF=1.550 | trailP mean=+3.24 PF=1.374 | armed 7%
+
+===== CHF_JPY (n=1255) =====
+no trailing (base): n=1255 mean=+2.35pip PF=1.202 win=52.2% t=2.25
+trailing P (pessimistic order): n=1255 mean=+1.92pip PF=1.167 win=52.7% t=1.97
+trailing O (optimistic order): n=1255 mean=+1.92pip PF=1.167 win=52.7% t=1.97
+armed rate: 9.8%  stopped-before-exit: P 9.2% / O 9.2%
+among armed trades (n=123): base mean=+60.63  trailP mean=+56.27  trailO mean=+56.29
+gotobi (n=242): base mean=+9.52 PF=2.173 | trailP mean=+8.05 PF=1.992 | armed 13%
+
+DONE (approximation on M1 bars; swap not included)

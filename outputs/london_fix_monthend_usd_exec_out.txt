@@ -1,0 +1,26 @@
+=== USD_JPY month-end USD-buy T->T+30 ===
+mid: n=72 mean=+3.62pip PF=2.428 t=+2.74
+exec: n=72 mean=+2.10pip PF=1.686 t=+1.59
+exec <=2023: n=39 mean=-0.87pip PF=0.761 t=-0.65
+exec 2024+: n=33 mean=+5.61pip PF=3.330 t=+2.45
+=== USD_CHF month-end USD-buy T->T+30 ===
+mid: n=71 mean=+2.21pip PF=1.615 t=+1.51
+exec: n=71 mean=+0.71pip PF=1.167 t=+0.48
+exec <=2023: n=38 mean=-1.52pip PF=0.754 t=-0.64
+exec 2024+: n=33 mean=+3.28pip PF=2.590 t=+2.12
+=== GBP_USD month-end USD-buy T->T+30 ===
+mid: n=72 mean=+3.44pip PF=2.100 t=+2.35
+exec: n=72 mean=+1.68pip PF=1.453 t=+1.15
+exec <=2023: n=39 mean=+1.82pip PF=1.419 t=+0.78
+exec 2024+: n=33 mean=+1.52pip PF=1.512 t=+0.90
+=== EUR_USD month-end USD-buy T->T+30 ===
+mid: n=81 mean=+2.11pip PF=1.656 t=+1.64
+exec: n=81 mean=+0.64pip PF=1.165 t=+0.50
+exec <=2023: n=48 mean=-1.06pip PF=0.797 t=-0.58
+exec 2024+: n=33 mean=+3.11pip PF=2.678 t=+1.93
+=== AUD_USD month-end USD-buy T->T+30 ===
+mid: n=72 mean=+2.35pip PF=2.022 t=+2.24
+exec: n=72 mean=+1.06pip PF=1.384 t=+1.01
+exec <=2023: n=39 mean=+0.05pip PF=1.012 t=+0.03
+exec 2024+: n=33 mean=+2.26pip PF=2.620 t=+2.08
+DONE

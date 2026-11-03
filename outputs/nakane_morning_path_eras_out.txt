@@ -1,0 +1,204 @@
+=== Part 1. Morning segments (MID, pip), Tue/Wed/Fri, by era ===
+-- USD_JPY
+  00:00-08:00: PRE19 2015-19: n=766 mean=+0.96pip t=+1.00 | PRE ..2020-09: n=883 mean=+1.01pip t=+1.14 | POST 2020-10..: n=943 mean=+3.04pip t=+3.04
+  08:00-09:00: PRE19 2015-19: n=775 mean=-0.23pip t=-0.66 | PRE ..2020-09: n=892 mean=-0.20pip t=-0.62 | POST 2020-10..: n=948 mean=+0.10pip t=+0.24
+  09:00-09:55: PRE19 2015-19: n=775 mean=+1.35pip t=+2.76 | PRE ..2020-09: n=892 mean=+1.14pip t=+2.51 | POST 2020-10..: n=948 mean=+2.14pip t=+3.55
+  08:00-09:55: PRE19 2015-19: n=773 mean=+1.14pip t=+2.06 | PRE ..2020-09: n=890 mean=+0.95pip t=+1.80 | POST 2020-10..: n=948 mean=+2.24pip t=+3.26
+  00:00-09:55: PRE19 2015-19: n=766 mean=+1.99pip t=+1.74 | PRE ..2020-09: n=883 mean=+1.85pip t=+1.76 | POST 2020-10..: n=943 mean=+5.21pip t=+4.13
+-- GBP_JPY
+  00:00-08:00: PRE19 2015-19: n=766 mean=+3.72pip t=+2.12 | PRE ..2020-09: n=883 mean=+3.34pip t=+2.10 | POST 2020-10..: n=943 mean=+5.43pip t=+3.89
+  08:00-09:00: PRE19 2015-19: n=774 mean=-0.31pip t=-0.34 | PRE ..2020-09: n=891 mean=+0.05pip t=+0.06 | POST 2020-10..: n=948 mean=+0.15pip t=+0.30
+  09:00-09:55: PRE19 2015-19: n=777 mean=+1.15pip t=+1.60 | PRE ..2020-09: n=894 mean=+0.71pip t=+1.08 | POST 2020-10..: n=948 mean=+1.23pip t=+1.80
+  08:00-09:55: PRE19 2015-19: n=774 mean=+0.89pip t=+0.85 | PRE ..2020-09: n=891 mean=+0.80pip t=+0.84 | POST 2020-10..: n=948 mean=+1.38pip t=+1.69
+  00:00-09:55: PRE19 2015-19: n=769 mean=+4.29pip t=+2.10 | PRE ..2020-09: n=886 mean=+3.87pip t=+2.10 | POST 2020-10..: n=943 mean=+6.68pip t=+4.03
+-- AUD_JPY
+  00:00-08:00: PRE19 2015-19: n=769 mean=-0.73pip t=-0.78 | PRE ..2020-09: n=886 mean=-0.69pip t=-0.77 | POST 2020-10..: n=943 mean=+2.55pip t=+2.81
+  08:00-09:00: PRE19 2015-19: n=777 mean=+0.69pip t=+1.81 | PRE ..2020-09: n=894 mean=+0.86pip t=+2.25 | POST 2020-10..: n=948 mean=+0.28pip t=+0.90
+  09:00-09:55: PRE19 2015-19: n=777 mean=+0.88pip t=+1.56 | PRE ..2020-09: n=894 mean=+0.48pip t=+0.91 | POST 2020-10..: n=948 mean=+0.03pip t=+0.07
+  08:00-09:55: PRE19 2015-19: n=777 mean=+1.57pip t=+2.46 | PRE ..2020-09: n=894 mean=+1.34pip t=+2.15 | POST 2020-10..: n=948 mean=+0.32pip t=+0.56
+  00:00-09:55: PRE19 2015-19: n=769 mean=+0.74pip t=+0.65 | PRE ..2020-09: n=886 mean=+0.57pip t=+0.53 | POST 2020-10..: n=943 mean=+2.74pip t=+2.48
+-- EUR_JPY
+  00:00-08:00: PRE19 2015-19: n=760 mean=+1.91pip t=+1.76 | PRE ..2020-09: n=877 mean=+2.11pip t=+2.11 | POST 2020-10..: n=938 mean=+3.82pip t=+3.58
+  08:00-09:00: PRE19 2015-19: n=768 mean=+0.06pip t=+0.15 | PRE ..2020-09: n=885 mean=+0.06pip t=+0.16 | POST 2020-10..: n=943 mean=-0.00pip t=-0.01
+  09:00-09:55: PRE19 2015-19: n=776 mean=+1.12pip t=+2.08 | PRE ..2020-09: n=893 mean=+0.74pip t=+1.48 | POST 2020-10..: n=948 mean=+1.39pip t=+2.38
+  08:00-09:55: PRE19 2015-19: n=767 mean=+1.25pip t=+1.92 | PRE ..2020-09: n=884 mean=+0.86pip t=+1.43 | POST 2020-10..: n=943 mean=+1.38pip t=+2.05
+  00:00-09:55: PRE19 2015-19: n=768 mean=+2.86pip t=+2.31 | PRE ..2020-09: n=885 mean=+2.71pip t=+2.36 | POST 2020-10..: n=943 mean=+5.06pip t=+3.91
+-- CHF_JPY
+  00:00-08:00: PRE19 2015-19: n=769 mean=+1.12pip t=+1.17 | PRE ..2020-09: n=886 mean=+1.09pip t=+1.25 | POST 2020-10..: n=939 mean=+4.13pip t=+4.07
+  08:00-09:00: PRE19 2015-19: n=777 mean=-0.25pip t=-0.73 | PRE ..2020-09: n=894 mean=-0.29pip t=-0.91 | POST 2020-10..: n=943 mean=-0.08pip t=-0.21
+  09:00-09:55: PRE19 2015-19: n=777 mean=+1.39pip t=+3.06 | PRE ..2020-09: n=894 mean=+1.02pip t=+2.43 | POST 2020-10..: n=947 mean=+2.19pip t=+4.11
+  08:00-09:55: PRE19 2015-19: n=777 mean=+1.14pip t=+2.17 | PRE ..2020-09: n=894 mean=+0.73pip t=+1.51 | POST 2020-10..: n=943 mean=+2.14pip t=+3.40
+  00:00-09:55: PRE19 2015-19: n=769 mean=+2.19pip t=+1.94 | PRE ..2020-09: n=886 mean=+1.75pip t=+1.71 | POST 2020-10..: n=943 mean=+6.26pip t=+5.14
+
+=== Part 1b. Pair-average of segment means (pip, simple average over 5 pairs) ===
+  00:00-08:00: PRE19 2015-19: +1.40 | PRE ..2020-09: +1.37 | POST 2020-10..: +3.79
+  08:00-09:00: PRE19 2015-19: -0.01 | PRE ..2020-09: +0.10 | POST 2020-10..: +0.09
+  09:00-09:55: PRE19 2015-19: +1.18 | PRE ..2020-09: +0.82 | POST 2020-10..: +1.40
+  08:00-09:55: PRE19 2015-19: +1.20 | PRE ..2020-09: +0.94 | POST 2020-10..: +1.49
+  00:00-09:55: PRE19 2015-19: +2.41 | PRE ..2020-09: +2.15 | POST 2020-10..: +5.19
+
+=== Part 1c. Hourly segments for USD_JPY (MID, pip) ===
+  00:00-01:00: PRE19 2015-19: n=773 mean=-0.46pip t=-0.90 | PRE ..2020-09: n=891 mean=-0.46pip t=-0.95 | POST 2020-10..: n=947 mean=+1.74pip t=+2.86
+  01:00-02:00: PRE19 2015-19: n=775 mean=+0.50pip t=+1.19 | PRE ..2020-09: n=893 mean=+0.39pip t=+0.99 | POST 2020-10..: n=947 mean=+0.58pip t=+1.49
+  02:00-03:00: PRE19 2015-19: n=775 mean=-0.23pip t=-0.57 | PRE ..2020-09: n=893 mean=-0.12pip t=-0.33 | POST 2020-10..: n=945 mean=+0.47pip t=+1.16
+  03:00-04:00: PRE19 2015-19: n=769 mean=+0.45pip t=+1.22 | PRE ..2020-09: n=887 mean=+0.50pip t=+1.44 | POST 2020-10..: n=945 mean=+0.19pip t=+0.53
+  04:00-05:00: PRE19 2015-19: n=765 mean=+0.39pip t=+1.06 | PRE ..2020-09: n=883 mean=+0.45pip t=+1.34 | POST 2020-10..: n=945 mean=+0.32pip t=+1.02
+  05:00-06:00: PRE19 2015-19: n=271 mean=+0.39pip t=+0.70 | PRE ..2020-09: n=313 mean=+0.45pip t=+0.83 | POST 2020-10..: n=346 mean=-0.20pip t=-0.37
+  06:00-07:00: PRE19 2015-19: n=30 mean=+2.27pip t=+0.92 | PRE ..2020-09: n=43 mean=+1.76pip t=+0.98 | POST 2020-10..: n=65 mean=-0.06pip t=-0.13
+  07:00-08:00: PRE19 2015-19: n=531 mean=-0.73pip t=-2.17 | PRE ..2020-09: n=620 mean=-0.59pip t=-1.84 | POST 2020-10..: n=664 mean=-0.40pip t=-1.03
+  08:00-09:00: PRE19 2015-19: n=775 mean=-0.23pip t=-0.66 | PRE ..2020-09: n=892 mean=-0.20pip t=-0.62 | POST 2020-10..: n=948 mean=+0.10pip t=+0.24
+  09:00-09:55: PRE19 2015-19: n=775 mean=+1.35pip t=+2.76 | PRE ..2020-09: n=892 mean=+1.14pip t=+2.51 | POST 2020-10..: n=948 mean=+2.14pip t=+3.55
+
+=== Part 2. Late entries -> 09:55 exit (executable ask-in/bid-out), Tue/Wed/Fri ===
+-- USD_JPY
+  IN 00:00:
+      PRE19 2015-19: n=766 mean=+0.25pip PF=1.022 t=0.22
+      PRE ..2020-09: n=883 mean=+0.12pip PF=1.011 t=0.12
+      POST 2020-10..: n=943 mean=+3.56pip PF=1.310 t=2.83
+  IN 06:00:
+      PRE19 2015-19: n=270 mean=-0.51pip PF=0.923 t=-0.48
+      PRE ..2020-09: n=311 mean=-0.74pip PF=0.890 t=-0.74
+      POST 2020-10..: n=343 mean=+0.61pip PF=1.083 t=0.52
+  IN 07:00:
+      PRE19 2015-19: n=532 mean=-1.53pip PF=0.790 t=-1.93
+      PRE ..2020-09: n=621 mean=-1.89pip PF=0.750 t=-2.49
+      POST 2020-10..: n=664 mean=-2.07pip PF=0.768 t=-2.35
+  IN 08:00:
+      PRE19 2015-19: n=773 mean=-0.82pip PF=0.866 t=-1.48
+      PRE ..2020-09: n=890 mean=-1.02pip PF=0.838 t=-1.93
+      POST 2020-10..: n=948 mean=+0.08pip PF=1.011 t=0.12
+  IN 08:30:
+      PRE19 2015-19: n=762 mean=-0.64pip PF=0.892 t=-1.18
+      PRE ..2020-09: n=877 mean=-0.80pip PF=0.866 t=-1.57
+      POST 2020-10..: n=945 mean=+0.78pip PF=1.118 t=1.24
+  IN 09:00:
+      PRE19 2015-19: n=775 mean=-0.41pip PF=0.922 t=-0.83
+      PRE ..2020-09: n=892 mean=-0.62pip PF=0.882 t=-1.37
+      POST 2020-10..: n=948 mean=+0.44pip PF=1.069 t=0.73
+  IN 09:30:
+      PRE19 2015-19: n=773 mean=-0.30pip PF=0.909 t=-0.95
+      PRE ..2020-09: n=890 mean=-0.37pip PF=0.892 t=-1.19
+      POST 2020-10..: n=948 mean=-0.01pip PF=0.997 t=-0.03
+-- GBP_JPY
+  IN 00:00:
+      PRE19 2015-19: n=769 mean=+0.39pip PF=1.020 t=0.19
+      PRE ..2020-09: n=886 mean=+0.03pip PF=1.002 t=0.02
+      POST 2020-10..: n=943 mean=+3.40pip PF=1.214 t=2.05
+  IN 06:00:
+      PRE19 2015-19: n=271 mean=-4.01pip PF=0.710 t=-1.45
+      PRE ..2020-09: n=302 mean=-3.58pip PF=0.731 t=-1.41
+      POST 2020-10..: n=321 mean=-1.22pip PF=0.882 t=-0.80
+  IN 07:00:
+      PRE19 2015-19: n=534 mean=-6.03pip PF=0.541 t=-3.43
+      PRE ..2020-09: n=623 mean=-6.17pip PF=0.530 t=-3.97
+      POST 2020-10..: n=628 mean=-6.79pip PF=0.504 t=-5.97
+  IN 08:00:
+      PRE19 2015-19: n=774 mean=-3.95pip PF=0.638 t=-3.72
+      PRE ..2020-09: n=891 mean=-3.99pip PF=0.633 t=-4.10
+      POST 2020-10..: n=948 mean=-3.52pip PF=0.680 t=-4.29
+  IN 08:30:
+      PRE19 2015-19: n=775 mean=-2.79pip PF=0.702 t=-3.50
+      PRE ..2020-09: n=891 mean=-3.05pip PF=0.678 t=-4.14
+      POST 2020-10..: n=946 mean=-1.59pip PF=0.828 t=-2.09
+  IN 09:00:
+      PRE19 2015-19: n=777 mean=-2.86pip PF=0.665 t=-4.01
+      PRE ..2020-09: n=894 mean=-3.25pip PF=0.625 t=-4.98
+      POST 2020-10..: n=948 mean=-2.14pip PF=0.757 t=-3.13
+  IN 09:30:
+      PRE19 2015-19: n=775 mean=-2.50pip PF=0.589 t=-5.16
+      PRE ..2020-09: n=892 mean=-2.70pip PF=0.561 t=-6.06
+      POST 2020-10..: n=948 mean=-1.86pip PF=0.704 t=-3.93
+-- AUD_JPY
+  IN 00:00:
+      PRE19 2015-19: n=769 mean=-1.43pip PF=0.881 t=-1.26
+      PRE ..2020-09: n=886 mean=-1.59pip PF=0.871 t=-1.49
+      POST 2020-10..: n=943 mean=+0.72pip PF=1.064 t=0.65
+  IN 06:00:
+      PRE19 2015-19: n=271 mean=-2.14pip PF=0.746 t=-1.69
+      PRE ..2020-09: n=302 mean=-2.07pip PF=0.754 t=-1.71
+      POST 2020-10..: n=320 mean=-2.31pip PF=0.713 t=-2.20
+  IN 07:00:
+      PRE19 2015-19: n=534 mean=-2.97pip PF=0.645 t=-3.51
+      PRE ..2020-09: n=623 mean=-2.94pip PF=0.656 t=-3.66
+      POST 2020-10..: n=629 mean=-3.69pip PF=0.581 t=-4.82
+  IN 08:00:
+      PRE19 2015-19: n=777 mean=-0.92pip PF=0.867 t=-1.45
+      PRE ..2020-09: n=894 mean=-1.14pip PF=0.841 t=-1.83
+      POST 2020-10..: n=948 mean=-2.36pip PF=0.687 t=-4.18
+  IN 08:30:
+      PRE19 2015-19: n=777 mean=-1.50pip PF=0.785 t=-2.43
+      PRE ..2020-09: n=894 mean=-1.68pip PF=0.765 t=-2.87
+      POST 2020-10..: n=946 mean=-2.11pip PF=0.696 t=-4.04
+  IN 09:00:
+      PRE19 2015-19: n=777 mean=-1.31pip PF=0.788 t=-2.32
+      PRE ..2020-09: n=894 mean=-1.70pip PF=0.738 t=-3.22
+      POST 2020-10..: n=948 mean=-1.98pip PF=0.689 t=-4.21
+  IN 09:30:
+      PRE19 2015-19: n=777 mean=-1.77pip PF=0.636 t=-3.98
+      PRE ..2020-09: n=894 mean=-1.94pip PF=0.610 t=-4.73
+      POST 2020-10..: n=948 mean=-1.88pip PF=0.601 t=-5.80
+-- EUR_JPY
+  IN 00:00:
+      PRE19 2015-19: n=768 mean=+0.57pip PF=1.045 t=0.46
+      PRE ..2020-09: n=885 mean=+0.41pip PF=1.033 t=0.36
+      POST 2020-10..: n=943 mean=+2.82pip PF=1.227 t=2.18
+  IN 06:00:
+      PRE19 2015-19: n=269 mean=-0.50pip PF=0.935 t=-0.40
+      PRE ..2020-09: n=300 mean=-0.85pip PF=0.890 t=-0.72
+      POST 2020-10..: n=324 mean=-0.07pip PF=0.991 t=-0.06
+  IN 07:00:
+      PRE19 2015-19: n=532 mean=-2.93pip PF=0.675 t=-2.99
+      PRE ..2020-09: n=621 mean=-3.28pip PF=0.640 t=-3.69
+      POST 2020-10..: n=638 mean=-3.32pip PF=0.654 t=-3.91
+  IN 08:00:
+      PRE19 2015-19: n=767 mean=-1.45pip PF=0.805 t=-2.20
+      PRE ..2020-09: n=884 mean=-1.86pip PF=0.754 t=-3.07
+      POST 2020-10..: n=943 mean=-1.73pip PF=0.795 t=-2.55
+  IN 08:30:
+      PRE19 2015-19: n=745 mean=-1.25pip PF=0.819 t=-2.02
+      PRE ..2020-09: n=860 mean=-1.60pip PF=0.774 t=-2.79
+      POST 2020-10..: n=936 mean=-0.52pip PF=0.929 t=-0.82
+  IN 09:00:
+      PRE19 2015-19: n=776 mean=-1.17pip PF=0.810 t=-2.17
+      PRE ..2020-09: n=893 mean=-1.56pip PF=0.754 t=-3.10
+      POST 2020-10..: n=948 mean=-0.87pip PF=0.876 t=-1.48
+  IN 09:30:
+      PRE19 2015-19: n=767 mean=-0.95pip PF=0.771 t=-2.55
+      PRE ..2020-09: n=884 mean=-1.04pip PF=0.755 t=-2.96
+      POST 2020-10..: n=946 mean=-0.75pip PF=0.850 t=-1.80
+-- CHF_JPY
+  IN 00:00:
+      PRE19 2015-19: n=769 mean=-1.46pip PF=0.869 t=-1.30
+      PRE ..2020-09: n=886 mean=-1.87pip PF=0.835 t=-1.83
+      POST 2020-10..: n=943 mean=+3.04pip PF=1.263 t=2.50
+  IN 06:00:
+      PRE19 2015-19: n=271 mean=-0.75pip PF=0.886 t=-0.59
+      PRE ..2020-09: n=302 mean=-0.84pip PF=0.870 t=-0.72
+      POST 2020-10..: n=320 mean=+0.53pip PF=1.078 t=0.47
+  IN 07:00:
+      PRE19 2015-19: n=534 mean=-6.94pip PF=0.310 t=-8.31
+      PRE ..2020-09: n=623 mean=-7.71pip PF=0.278 t=-10.18
+      POST 2020-10..: n=627 mean=-9.14pip PF=0.308 t=-11.07
+  IN 08:00:
+      PRE19 2015-19: n=777 mean=-4.14pip PF=0.455 t=-7.85
+      PRE ..2020-09: n=894 mean=-4.51pip PF=0.424 t=-9.25
+      POST 2020-10..: n=943 mean=-3.70pip PF=0.594 t=-5.80
+  IN 08:30:
+      PRE19 2015-19: n=776 mean=-3.24pip PF=0.527 t=-6.41
+      PRE ..2020-09: n=893 mean=-3.51pip PF=0.499 t=-7.52
+      POST 2020-10..: n=942 mean=-0.89pip PF=0.872 t=-1.53
+  IN 09:00:
+      PRE19 2015-19: n=777 mean=-2.62pip PF=0.558 t=-5.79
+      PRE ..2020-09: n=894 mean=-2.96pip PF=0.517 t=-7.07
+      POST 2020-10..: n=947 mean=-1.06pip PF=0.838 t=-1.99
+  IN 09:30:
+      PRE19 2015-19: n=777 mean=-2.23pip PF=0.479 t=-7.28
+      PRE ..2020-09: n=894 mean=-2.30pip PF=0.475 t=-7.85
+      POST 2020-10..: n=948 mean=-1.06pip PF=0.779 t=-2.75
+
+=== Part 3. USD_JPY gotobi-only segments (MID, pip) ===
+  00:00-08:00: PRE ..2020-09: n=172 mean=+2.45pip t=+1.22 | POST 2020-10..: n=182 mean=+4.24pip t=+2.05
+  08:00-09:00: PRE ..2020-09: n=172 mean=+1.72pip t=+2.22 | POST 2020-10..: n=182 mean=+2.12pip t=+2.82
+  09:00-09:55: PRE ..2020-09: n=173 mean=+2.55pip t=+2.48 | POST 2020-10..: n=182 mean=+1.55pip t=+1.21
+  08:00-09:55: PRE ..2020-09: n=172 mean=+4.32pip t=+3.52 | POST 2020-10..: n=182 mean=+3.67pip t=+2.43
+  00:00-09:55: PRE ..2020-09: n=173 mean=+6.85pip t=+2.68 | POST 2020-10..: n=182 mean=+7.91pip t=+3.08

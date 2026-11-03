@@ -1,0 +1,85 @@
+
+=== GBP_USD fade exact (n=1575, big thr=14.9pip) ===
+  FADE30 mid                         n= 1575 mean=  +0.34pip PF=1.079 t=+1.11
+  FADE30 exec (exact)                n= 1575 mean=  -1.40pip PF=0.728 t=-4.61
+  FADE30 big mid                     n=  394 mean=  +1.68pip PF=1.394 t=+2.36
+  FADE30 big exec (exact)            n=  394 mean=  -0.06pip PF=0.987 t=-0.09
+  FADE30 month-end exec              n=   72 mean=  +1.00pip PF=1.240 t=+0.67
+  T-5->T mid all                     n= 1575 mean=  +0.46pip PF=1.264 t=+3.12
+  T-5->T mid <=2023                  n=  842 mean=  +0.32pip PF=1.154 t=+1.37
+  T-5->T mid 2024+                   n=  733 mean=  +0.63pip PF=1.459 t=+3.67
+
+=== EUR_USD fade exact (n=1770, big thr=12.6pip) ===
+  FADE30 mid                         n= 1770 mean=  +0.66pip PF=1.206 t=+2.88
+  FADE30 exec (exact)                n= 1770 mean=  -0.78pip PF=0.799 t=-3.42
+  FADE30 big mid                     n=  443 mean=  +1.44pip PF=1.398 t=+2.52
+  FADE30 big exec (exact)            n=  443 mean=  -0.01pip PF=0.997 t=-0.02
+  FADE30 month-end exec              n=   81 mean=  -0.72pip PF=0.844 t=-0.55
+  T-5->T mid all                     n= 1770 mean=  +0.26pip PF=1.170 t=+2.23
+  T-5->T mid <=2023                  n= 1037 mean=  +0.03pip PF=1.017 t=+0.19
+  T-5->T mid 2024+                   n=  733 mean=  +0.58pip PF=1.581 t=+4.54
+
+=== USD_JPY fade exact (n=1576, big thr=14.0pip) ===
+  FADE30 mid                         n= 1576 mean=  +0.02pip PF=1.005 t=+0.07
+  FADE30 exec (exact)                n= 1576 mean=  -1.50pip PF=0.703 t=-4.51
+  FADE30 big mid                     n=  395 mean=  -1.57pip PF=0.757 t=-1.74
+  FADE30 big exec (exact)            n=  395 mean=  -3.16pip PF=0.570 t=-3.49
+  FADE30 month-end exec              n=   72 mean=  -0.16pip PF=0.964 t=-0.12
+  T-5->T mid all                     n= 1576 mean=  +0.46pip PF=1.251 t=+3.00
+  T-5->T mid <=2023                  n=  843 mean=  +0.18pip PF=1.098 t=+0.85
+  T-5->T mid 2024+                   n=  733 mean=  +0.78pip PF=1.431 t=+3.53
+
+=== EUR_GBP fade exact (n=1575, big thr=7.2pip) ===
+  FADE30 mid                         n= 1575 mean=  +0.39pip PF=1.218 t=+2.81
+  FADE30 exec (exact)                n= 1575 mean=  -1.01pip PF=0.599 t=-7.29
+  FADE30 big mid                     n=  394 mean=  +1.30pip PF=1.653 t=+3.47
+  FADE30 big exec (exact)            n=  394 mean=  -0.12pip PF=0.954 t=-0.33
+  FADE30 month-end exec              n=   72 mean=  -0.08pip PF=0.966 t=-0.11
+  T-5->T mid all                     n= 1575 mean=  -0.05pip PF=0.957 t=-0.59
+  T-5->T mid <=2023                  n=  842 mean=  -0.13pip PF=0.909 t=-0.95
+  T-5->T mid 2024+                   n=  733 mean=  +0.04pip PF=1.042 t=+0.40
+
+=== GBP_JPY fade exact (n=1575, big thr=19.6pip) ===
+  FADE30 mid                         n= 1575 mean=  +0.93pip PF=1.166 t=+2.17
+  FADE30 exec (exact)                n= 1575 mean=  -1.90pip PF=0.730 t=-4.42
+  FADE30 big mid                     n=  394 mean=  +0.29pip PF=1.036 t=+0.25
+  FADE30 big exec (exact)            n=  394 mean=  -2.63pip PF=0.720 t=-2.27
+  FADE30 month-end exec              n=   72 mean=  +0.21pip PF=1.031 t=+0.10
+  T-5->T mid all                     n= 1575 mean=  +1.24pip PF=1.498 t=+5.49
+  T-5->T mid <=2023                  n=  842 mean=  +0.64pip PF=1.237 t=+2.07
+  T-5->T mid 2024+                   n=  733 mean=  +1.94pip PF=1.851 t=+5.84
+
+=== AUD_USD fade exact (n=1572, big thr=9.4pip) ===
+  FADE30 mid                         n= 1572 mean=  +0.20pip PF=1.073 t=+1.03
+  FADE30 exec (exact)                n= 1572 mean=  -1.09pip PF=0.679 t=-5.66
+  FADE30 big mid                     n=  394 mean=  +0.10pip PF=1.029 t=+0.22
+  FADE30 big exec (exact)            n=  394 mean=  -1.20pip PF=0.710 t=-2.58
+  FADE30 month-end exec              n=   72 mean=  -1.81pip PF=0.592 t=-1.67
+  T-5->T mid all                     n= 1572 mean=  +0.50pip PF=1.487 t=+5.65
+  T-5->T mid <=2023                  n=  840 mean=  +0.57pip PF=1.468 t=+4.03
+  T-5->T mid 2024+                   n=  732 mean=  +0.43pip PF=1.520 t=+4.21
+
+=== USD_CHF fade exact (n=1570, big thr=10.5pip) ===
+  FADE30 mid                         n= 1570 mean=  +0.61pip PF=1.227 t=+2.91
+  FADE30 exec (exact)                n= 1570 mean=  -0.87pip PF=0.745 t=-4.17
+  FADE30 big mid                     n=  393 mean=  +1.14pip PF=1.374 t=+2.25
+  FADE30 big exec (exact)            n=  393 mean=  -0.35pip PF=0.906 t=-0.70
+  FADE30 month-end exec              n=   71 mean=  +1.26pip PF=1.318 t=+0.87
+  T-5->T mid all                     n= 1570 mean=  -0.06pip PF=0.958 t=-0.61
+  T-5->T mid <=2023                  n=  837 mean=  -0.19pip PF=0.879 t=-1.35
+  T-5->T mid 2024+                   n=  733 mean=  +0.09pip PF=1.089 t=+0.84
+
+=== USD composite (5 pairs avg, bp) n=1574 ===
+  pre30 USD all                      n= 1574 mean=  +0.19pip PF=1.057 t=+0.80
+  post30 USD all                     n= 1574 mean=  -0.13pip PF=0.957 t=-0.64
+  pre30 USD month-end                n=   72 mean=  -1.51pip PF=0.778 t=-0.75
+  pre30 USD non-ME                   n= 1502 mean=  +0.27pip PF=1.086 t=+1.18
+  post30 USD month-end               n=   72 mean=  +2.74pip PF=2.299 t=+2.70
+  post30 USD non-ME                  n= 1502 mean=  -0.26pip PF=0.911 t=-1.32
+  post30 USD quarter-end             n=   24 mean=  +0.96pip PF=1.338 t=+0.57
+  pre30 USD quarter-end              n=   24 mean=  -0.87pip PF=0.835 t=-0.35
+  post30 USD ME <=2023               n=   39 mean=  +1.28pip PF=1.415 t=+0.83
+  post30 USD ME 2024+                n=   33 mean=  +4.47pip PF=5.656 t=+3.67
+  ME (-pre+post) USD                 n=   72 mean=  +4.25pip PF=1.776 t=+1.75
+
+DONE

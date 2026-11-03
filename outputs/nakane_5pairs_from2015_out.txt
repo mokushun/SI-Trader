@@ -1,0 +1,130 @@
+USD_JPY: loaded 2423 trades, 2015-01-06 .. 2026-10-30
+GBP_JPY: loaded 2435 trades, 2015-01-06 .. 2026-10-30
+AUD_JPY: loaded 2441 trades, 2015-01-06 .. 2026-10-30
+EUR_JPY: loaded 2406 trades, 2015-01-06 .. 2026-10-30
+CHF_JPY: loaded 2440 trades, 2015-01-06 .. 2026-10-30
+
+=== S1. Replication check (2020-10-01 <= d < 2026-10-23; must match 2026-10-29 first pass) ===
+USD_JPY: n=1254 mean=+3.84pip PF=1.333 t=3.39 win=56.4%
+GBP_JPY: n=1254 mean=+3.94pip PF=1.251 t=2.69 win=56.0%
+AUD_JPY: n=1254 mean=+0.92pip PF=1.084 t=0.93 win=53.5%
+EUR_JPY: n=1244 mean=+2.70pip PF=1.219 t=2.40 win=55.1%
+CHF_JPY: n=1252 mean=+2.34pip PF=1.201 t=2.25 win=52.2%
+
+=== S2. Full period (d < 2026-10-31) ===
+USD_JPY: ALL n=2423 mean=+1.84pip PF=1.157 t=2.45 win=54.2%
+   gotobi n=471 mean=+7.01pip PF=1.701 t=3.95 win=58.6% | non-gotobi n=1952 mean=+0.59pip PF=1.049 t=0.72 win=53.2%
+GBP_JPY: ALL n=2435 mean=+2.16pip PF=1.127 t=2.02 win=53.2%
+   gotobi n=474 mean=+7.83pip PF=1.568 t=3.26 win=56.8% | non-gotobi n=1961 mean=+0.79pip PF=1.044 t=0.66 win=52.3%
+AUD_JPY: ALL n=2441 mean=+0.00pip PF=1.000 t=0.00 win=52.0%
+   gotobi n=474 mean=+3.70pip PF=1.402 t=2.33 win=56.1% | non-gotobi n=1967 mean=-0.89pip PF=0.925 t=-1.20 win=51.0%
+EUR_JPY: ALL n=2406 mean=+1.96pip PF=1.161 t=2.59 win=53.1%
+   gotobi n=470 mean=+7.74pip PF=1.843 t=4.50 win=59.6% | non-gotobi n=1936 mean=+0.55pip PF=1.043 t=0.66 win=51.5%
+CHF_JPY: ALL n=2440 mean=+0.44pip PF=1.038 t=0.64 win=50.0%
+   gotobi n=473 mean=+6.08pip PF=1.698 t=4.20 win=56.7% | non-gotobi n=1967 mean=-0.91pip PF=0.925 t=-1.18 win=48.4%
+
+=== S3. Era split: PRE (d < 2020-10-01, never verified) vs POST (2020-10-01 <= d < 2026-10-31) ===
+USD_JPY: PRE  n=1164 mean=-0.19pip PF=0.984 t=-0.20 win=52.0%
+USD_JPY: POST n=1259 mean=+3.71pip PF=1.320 t=3.28 win=56.3%
+GBP_JPY: PRE  n=1176 mean=+0.32pip PF=1.017 t=0.21 win=50.3%
+GBP_JPY: POST n=1259 mean=+3.88pip PF=1.246 t=2.65 win=55.9%
+AUD_JPY: PRE  n=1182 mean=-0.92pip PF=0.922 t=-1.01 win=50.3%
+AUD_JPY: POST n=1259 mean=+0.87pip PF=1.079 t=0.88 win=53.5%
+EUR_JPY: PRE  n=1157 mean=+1.26pip PF=1.105 t=1.26 win=51.1%
+EUR_JPY: POST n=1249 mean=+2.60pip PF=1.211 t=2.32 win=54.9%
+CHF_JPY: PRE  n=1183 mean=-1.60pip PF=0.858 t=-1.82 win=47.7%
+CHF_JPY: POST n=1257 mean=+2.37pip PF=1.204 t=2.27 win=52.2%
+
+=== S5. Gotobi split within each era ===
+USD_JPY PRE: gotobi n=227 mean=+5.48pip PF=1.542 t=2.29 win=56.4% | non-gotobi n=937 mean=-1.57pip PF=0.872 t=-1.51 win=50.9%
+USD_JPY POST: gotobi n=244 mean=+8.43pip PF=1.851 t=3.24 win=60.7% | non-gotobi n=1015 mean=+2.58pip PF=1.215 t=2.06 win=55.3%
+GBP_JPY PRE: gotobi n=230 mean=+5.73pip PF=1.380 t=1.83 win=53.9% | non-gotobi n=946 mean=-0.99pip PF=0.948 t=-0.55 win=49.4%
+GBP_JPY POST: gotobi n=244 mean=+9.80pip PF=1.781 t=2.73 win=59.4% | non-gotobi n=1015 mean=+2.46pip PF=1.149 t=1.54 win=55.1%
+AUD_JPY PRE: gotobi n=230 mean=+2.73pip PF=1.283 t=1.40 win=56.1% | non-gotobi n=952 mean=-1.80pip PF=0.854 t=-1.76 win=48.9%
+AUD_JPY POST: gotobi n=244 mean=+4.61pip PF=1.527 t=1.87 win=56.1% | non-gotobi n=1015 mean=-0.03pip PF=0.997 t=-0.03 win=52.9%
+EUR_JPY PRE: gotobi n=228 mean=+6.02pip PF=1.632 t=2.75 win=59.6% | non-gotobi n=929 mean=+0.10pip PF=1.008 t=0.09 win=49.0%
+EUR_JPY POST: gotobi n=242 mean=+9.37pip PF=2.055 t=3.57 win=59.5% | non-gotobi n=1007 mean=+0.98pip PF=1.074 t=0.79 win=53.8%
+CHF_JPY PRE: gotobi n=230 mean=+2.17pip PF=1.232 t=1.20 win=52.2% | non-gotobi n=953 mean=-2.52pip PF=0.786 t=-2.52 win=46.6%
+CHF_JPY POST: gotobi n=243 mean=+9.77pip PF=2.209 t=4.42 win=60.9% | non-gotobi n=1014 mean=+0.59pip PF=1.047 t=0.51 win=50.1%
+
+=== S4. Yearly means (pip) per pair, all trades ===
+year | USD_JPY | GBP_JPY | AUD_JPY | EUR_JPY | CHF_JPY | pair-mean-avg | pooled(n)
+2015 |   -1.33 |   +1.10 |   +0.38 |   +0.26 |   -4.21 | -0.76 | 1015
+2016 |   -2.89 |   -1.60 |   +0.30 |   +2.01 |   -1.55 | -0.75 | 1026
+2017 |   +1.20 |   +2.58 |   -0.24 |   +2.64 |   -0.41 | +1.16 | 1026
+2018 |   +1.26 |   +0.02 |   -1.95 |   +1.38 |   -0.33 | +0.08 | 1014
+2019 |   +0.80 |   +1.87 |   -0.62 |   +0.60 |   -0.16 | +0.50 | 1011
+2020 |   -0.86 |   -2.71 |   -3.52 |   -1.50 |   -4.39 | -2.59 | 1028
+2021 |   +3.25 |   +2.19 |   -0.23 |   +1.42 |   +0.49 | +1.42 | 1032
+2022 |   +7.41 |   +6.21 |   +3.13 |   +5.39 |   +5.81 | +5.59 | 1035
+2023 |   -0.69 |   +3.07 |   -0.22 |   +1.65 |   +2.48 | +1.26 | 1035
+2024 |   +4.25 |   +4.77 |   +0.05 |   +3.46 |   +3.26 | +3.16 | 1029
+2025 |   +4.30 |   +6.03 |   +1.64 |   +3.45 |   +3.91 | +3.87 | 1029
+2026 |   +5.74 |   +2.35 |   +1.56 |   +2.67 |   +0.37 | +2.54 | 865
+
+=== S4b. Yearly detail per pair (n / mean / PF / t) ===
+-- USD_JPY
+  2015: n=199 mean=-1.33pip PF=0.888 t=-0.59 win=50.3%
+  2016: n=204 mean=-2.89pip PF=0.832 t=-0.97 win=50.5%
+  2017: n=204 mean=+1.20pip PF=1.083 t=0.44 win=52.9%
+  2018: n=202 mean=+1.26pip PF=1.128 t=0.65 win=54.5%
+  2019: n=202 mean=+0.80pip PF=1.106 t=0.54 win=54.0%
+  2020: n=205 mean=-0.86pip PF=0.902 t=-0.49 win=46.3%
+  2021: n=208 mean=+3.25pip PF=1.657 t=2.72 win=59.6%
+  2022: n=207 mean=+7.41pip PF=1.632 t=2.65 win=57.5%
+  2023: n=207 mean=-0.69pip PF=0.955 t=-0.22 win=53.1%
+  2024: n=206 mean=+4.25pip PF=1.300 t=1.25 win=55.3%
+  2025: n=206 mean=+4.30pip PF=1.280 t=1.22 win=58.3%
+  2026: n=173 mean=+5.74pip PF=1.652 t=2.37 win=59.0%
+-- GBP_JPY
+  2015: n=205 mean=+1.10pip PF=1.063 t=0.30 win=47.8%
+  2016: n=207 mean=-1.60pip PF=0.940 t=-0.32 win=55.1%
+  2017: n=206 mean=+2.58pip PF=1.143 t=0.73 win=52.9%
+  2018: n=202 mean=+0.02pip PF=1.001 t=0.01 win=49.5%
+  2019: n=203 mean=+1.87pip PF=1.137 t=0.54 win=46.8%
+  2020: n=205 mean=-2.71pip PF=0.846 t=-0.89 win=47.8%
+  2021: n=208 mean=+2.19pip PF=1.216 t=1.01 win=55.3%
+  2022: n=207 mean=+6.21pip PF=1.329 t=1.58 win=57.0%
+  2023: n=207 mean=+3.07pip PF=1.186 t=0.86 win=56.0%
+  2024: n=206 mean=+4.77pip PF=1.283 t=1.16 win=56.8%
+  2025: n=206 mean=+6.03pip PF=1.327 t=1.33 win=57.8%
+  2026: n=173 mean=+2.35pip PF=1.173 t=0.72 win=55.5%
+-- AUD_JPY
+  2015: n=205 mean=+0.38pip PF=1.030 t=0.15 win=50.2%
+  2016: n=207 mean=+0.30pip PF=1.022 t=0.11 win=50.7%
+  2017: n=205 mean=-0.24pip PF=0.976 t=-0.13 win=54.1%
+  2018: n=205 mean=-1.95pip PF=0.845 t=-0.89 win=51.2%
+  2019: n=205 mean=-0.62pip PF=0.919 t=-0.44 win=48.8%
+  2020: n=207 mean=-3.52pip PF=0.723 t=-1.75 win=47.8%
+  2021: n=208 mean=-0.23pip PF=0.972 t=-0.14 win=53.4%
+  2022: n=207 mean=+3.13pip PF=1.235 t=1.18 win=57.5%
+  2023: n=207 mean=-0.22pip PF=0.981 t=-0.10 win=51.2%
+  2024: n=206 mean=+0.05pip PF=1.005 t=0.02 win=53.4%
+  2025: n=206 mean=+1.64pip PF=1.130 t=0.50 win=53.4%
+  2026: n=173 mean=+1.56pip PF=1.159 t=0.68 win=52.0%
+-- EUR_JPY
+  2015: n=201 mean=+0.26pip PF=1.020 t=0.10 win=48.3%
+  2016: n=201 mean=+2.01pip PF=1.151 t=0.71 win=51.2%
+  2017: n=205 mean=+2.64pip PF=1.226 t=1.17 win=52.2%
+  2018: n=200 mean=+1.38pip PF=1.106 t=0.55 win=51.5%
+  2019: n=196 mean=+0.60pip PF=1.069 t=0.35 win=54.6%
+  2020: n=204 mean=-1.50pip PF=0.883 t=-0.70 win=45.6%
+  2021: n=201 mean=+1.42pip PF=1.188 t=0.93 win=54.2%
+  2022: n=207 mean=+5.39pip PF=1.377 t=1.82 win=56.5%
+  2023: n=207 mean=+1.65pip PF=1.117 t=0.57 win=56.5%
+  2024: n=206 mean=+3.46pip PF=1.260 t=1.07 win=61.2%
+  2025: n=205 mean=+3.45pip PF=1.234 t=1.01 win=52.2%
+  2026: n=173 mean=+2.67pip PF=1.299 t=1.17 win=52.6%
+-- CHF_JPY
+  2015: n=205 mean=-4.21pip PF=0.746 t=-1.31 win=40.5%
+  2016: n=207 mean=-1.55pip PF=0.888 t=-0.64 win=44.9%
+  2017: n=206 mean=-0.41pip PF=0.962 t=-0.22 win=51.0%
+  2018: n=205 mean=-0.33pip PF=0.962 t=-0.22 win=49.8%
+  2019: n=205 mean=-0.16pip PF=0.976 t=-0.13 win=51.2%
+  2020: n=207 mean=-4.39pip PF=0.615 t=-2.68 win=46.9%
+  2021: n=207 mean=+0.49pip PF=1.073 t=0.39 win=46.9%
+  2022: n=207 mean=+5.81pip PF=1.605 t=2.53 win=60.4%
+  2023: n=207 mean=+2.48pip PF=1.169 t=0.78 win=56.5%
+  2024: n=205 mean=+3.26pip PF=1.300 t=1.22 win=55.1%
+  2025: n=206 mean=+3.91pip PF=1.295 t=1.35 win=50.5%
+  2026: n=173 mean=+0.37pip PF=1.025 t=0.12 win=45.7%
