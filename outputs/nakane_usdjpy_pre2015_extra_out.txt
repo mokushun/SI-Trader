@@ -1,0 +1,18 @@
+=== Yearly unconditional nakane (executable), USD_JPY ===
+  2005: n=207 mean=+1.90pip PF=1.213 t=1.08
+  2006: n=205 mean=+1.20pip PF=1.102 t=0.50
+  2007: n=205 mean=-1.29pip PF=0.897 t=-0.58
+  2008: n=207 mean=-1.89pip PF=0.913 t=-0.46
+  2009: n=206 mean=-4.22pip PF=0.748 t=-1.56
+  2010: n=203 mean=+0.27pip PF=1.024 t=0.12
+  2011: n=202 mean=+3.88pip PF=1.686 t=2.05
+  2012: n=190 mean=+3.21pip PF=1.659 t=2.51
+  2013: n=205 mean=+4.53pip PF=1.424 t=1.74
+  2014: n=198 mean=+4.29pip PF=1.668 t=2.36
+=== Pooled post-fixing SHORT to 10:30 (executable), Tue/Wed/Fri ===
+  GOTOBI 2005-2026 pooled: n=651 mean=+1.79pip PF=1.603 t=4.27
+  GOTOBI 2005-2014 pooled: n=296 mean=+1.79pip PF=1.648 t=3.16
+  GOTOBI 2015-2026 pooled: n=355 mean=+1.80pip PF=1.570 t=2.95
+  ALL    2005-2014 pooled: n=1523 mean=+0.30pip PF=1.082 t=1.07
+  ALL    2015-2026 pooled: n=1839 mean=-0.58pip PF=0.873 t=-2.02
+  NON-GOTOBI 2005-2026 pooled: n=2711 mean=-0.66pip PF=0.854 t=-2.84
