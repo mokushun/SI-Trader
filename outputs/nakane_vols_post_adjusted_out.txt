@@ -1,0 +1,54 @@
+Non-gotobi weekday means (pip): FULL / POST / score=(FULL+POST)/2
+  USD_JPY wd=2: FULL +1.21 | POST +4.88 | score +3.04
+  USD_JPY wd=3: FULL +2.15 | POST +4.94 | score +3.54
+  USD_JPY wd=4: FULL -0.62 | POST +1.57 | score +0.48
+  USD_JPY wd=5: FULL -0.40 | POST -1.08 | score -0.74
+  GBP_JPY wd=2: FULL +0.35 | POST +5.73 | score +3.04
+  GBP_JPY wd=3: FULL +2.95 | POST +4.11 | score +3.53
+  GBP_JPY wd=4: FULL +1.70 | POST +3.15 | score +2.42
+  GBP_JPY wd=5: FULL -1.83 | POST -3.19 | score -2.51
+  AUD_JPY wd=2: FULL -1.07 | POST +0.88 | score -0.09
+  AUD_JPY wd=3: FULL +0.71 | POST +3.15 | score +1.93
+  AUD_JPY wd=4: FULL -0.45 | POST -0.61 | score -0.53
+  AUD_JPY wd=5: FULL -2.75 | POST -3.58 | score -3.16
+  EUR_JPY wd=2: FULL -0.09 | POST +2.86 | score +1.38
+  EUR_JPY wd=3: FULL +1.07 | POST +2.73 | score +1.90
+  EUR_JPY wd=4: FULL +1.19 | POST -0.25 | score +0.47
+  EUR_JPY wd=5: FULL +0.08 | POST -1.48 | score -0.70
+  CHF_JPY wd=2: FULL -2.46 | POST +0.55 | score -0.96
+  CHF_JPY wd=3: FULL -0.60 | POST +2.86 | score +1.13
+  CHF_JPY wd=4: FULL -2.68 | POST -2.95 | score -2.81
+  CHF_JPY wd=5: FULL +2.09 | POST +1.88 | score +1.99
+
+Adjusted table (base VOLS, Tue/Wed/Thu/Fri) and day totals:
+  Tue total = 9990
+  Wed total = 9990
+  Thu total = 10000
+  Fri total = 5400
+  USD_JPY: [3990, 2940, 2410, 100]
+  GBP_JPY: [3990, 2930, 5000, 100]
+  AUD_JPY: [100, 1600, 100, 100]
+  EUR_JPY: [1810, 1580, 2390, 100]
+  CHF_JPY: [100, 940, 100, 5000]
+ADJ-Fri10k Friday: {'USD_JPY': 100, 'GBP_JPY': 100, 'AUD_JPY': 100, 'EUR_JPY': 100, 'CHF_JPY': 9600}
+
+===== PRE =====
+  CUR       : total=   +193353yen month=  +2802 worst-month=  -48862 pos=59% t=1.21 worst-day=  -26294
+  PROP2     : total=   +223276yen month=  +3236 worst-month=  -49864 pos=61% t=1.35 worst-day=  -29681
+  ADJ       : total=   +217718yen month=  +3155 worst-month=  -44548 pos=59% t=1.35 worst-day=  -27079
+  ADJ-Fri10k: total=   +275536yen month=  +3993 worst-month=  -42977 pos=57% t=1.60 worst-day=  -27079
+===== POST =====
+  CUR       : total=   +977814yen month= +13395 worst-month=  -36003 pos=70% t=4.63 worst-day=  -33843
+  PROP2     : total=  +1106949yen month= +15164 worst-month=  -30447 pos=73% t=5.08 worst-day=  -41684
+  ADJ       : total=  +1145837yen month= +15696 worst-month=  -31993 pos=74% t=5.07 worst-day=  -40631
+  ADJ-Fri10k: total=  +1217360yen month= +16676 worst-month=  -40346 pos=71% t=4.86 worst-day=  -40631
+===== FULL =====
+  CUR       : total=  +1171167yen month=  +8248 worst-month=  -48862 pos=65% t=4.30 worst-day=  -33843
+  PROP2     : total=  +1330225yen month=  +9368 worst-month=  -49864 pos=67% t=4.71 worst-day=  -41684
+  ADJ       : total=  +1363556yen month=  +9603 worst-month=  -44548 pos=67% t=4.74 worst-day=  -40631
+  ADJ-Fri10k: total=  +1492896yen month= +10513 worst-month=  -42977 pos=64% t=4.77 worst-day=  -40631
+
+Exposure (units/day incl x1.4, base/gotobi):
+  CUR        wd2: 16,660/37,660 | wd3: 14,840/35,840 | wd4: 13,440/34,440 | wd5: 11,760/32,760
+  PROP2      wd2: 14,560/35,560 | wd3: 15,820/36,820 | wd4: 14,700/35,700 | wd5: 5,880/26,880
+  ADJ        wd2: 13,986/34,986 | wd3: 13,986/34,986 | wd4: 14,000/35,000 | wd5: 7,560/28,560
