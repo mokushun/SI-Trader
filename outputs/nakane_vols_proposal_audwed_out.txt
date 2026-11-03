@@ -1,0 +1,6 @@
+PRE PROP     : total=   +230509yen t=1.41 worst-month=  -48164 worst-day=  -29885
+PRE PROP+AUD水1000: total=   +223276yen t=1.35 worst-month=  -49864 worst-day=  -29681
+POST PROP     : total=  +1090713yen t=5.02 worst-month=  -30783 worst-day=  -41684
+POST PROP+AUD水1000: total=  +1106949yen t=5.08 worst-month=  -30447 worst-day=  -41684
+FULL PROP     : total=  +1321222yen t=4.71 worst-month=  -48164 worst-day=  -41684
+FULL PROP+AUD水1000: total=  +1330225yen t=4.71 worst-month=  -49864 worst-day=  -41684
