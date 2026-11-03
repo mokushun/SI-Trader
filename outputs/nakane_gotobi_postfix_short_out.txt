@@ -1,0 +1,80 @@
+-- USD_JPY GOTOBI only, Tue/Wed/Fri, SHORT 09:55 bid -> buyback ask
+  to 10:30 E1 2015-17: n=91 mean=+1.66pip PF=1.556 t=1.42
+  to 10:30 E2 2018-20.9: n=82 mean=-0.20pip PF=0.943 t=-0.18
+  to 10:30 E3 2020.10-23: n=97 mean=+1.87pip PF=1.673 t=1.96
+  to 10:30 E4 2024-26: n=85 mean=+3.78pip PF=2.093 t=2.37
+  to 10:30 ALL: n=355 mean=+1.80pip PF=1.570 t=2.95
+  to 11:00 E1 2015-17: n=91 mean=-1.01pip PF=0.842 t=-0.51
+  to 11:00 E2 2018-20.9: n=82 mean=+0.85pip PF=1.237 t=0.60
+  to 11:00 E3 2020.10-23: n=97 mean=+0.68pip PF=1.152 t=0.51
+  to 11:00 E4 2024-26: n=85 mean=+3.89pip PF=1.896 t=2.16
+  to 11:00 ALL: n=355 mean=+1.05pip PF=1.223 t=1.27
+  to 12:00 E1 2015-17: n=91 mean=-0.19pip PF=0.973 t=-0.09
+  to 12:00 E2 2018-20.9: n=82 mean=+0.77pip PF=1.194 t=0.45
+  to 12:00 E3 2020.10-23: n=97 mean=+0.44pip PF=1.071 t=0.23
+  to 12:00 E4 2024-26: n=85 mean=+3.90pip PF=1.597 t=1.48
+  to 12:00 ALL: n=355 mean=+1.18pip PF=1.197 t=1.09
+-- GBP_JPY GOTOBI only, Tue/Wed/Fri, SHORT 09:55 bid -> buyback ask
+  to 10:30 E1 2015-17: n=91 mean=+1.33pip PF=1.304 t=0.80
+  to 10:30 E2 2018-20.9: n=82 mean=-3.12pip PF=0.548 t=-2.06
+  to 10:30 E3 2020.10-23: n=97 mean=-0.94pip PF=0.822 t=-0.73
+  to 10:30 E4 2024-26: n=85 mean=+4.07pip PF=2.256 t=2.52
+  to 10:30 ALL: n=355 mean=+0.34pip PF=1.069 t=0.44
+  to 11:00 E1 2015-17: n=91 mean=-3.38pip PF=0.655 t=-1.19
+  to 11:00 E2 2018-20.9: n=82 mean=-2.96pip PF=0.600 t=-1.69
+  to 11:00 E3 2020.10-23: n=97 mean=-1.82pip PF=0.746 t=-1.00
+  to 11:00 E4 2024-26: n=85 mean=+6.44pip PF=2.959 t=3.43
+  to 11:00 ALL: n=355 mean=-0.50pip PF=0.928 t=-0.46
+  to 12:00 E1 2015-17: n=91 mean=-2.09pip PF=0.816 t=-0.59
+  to 12:00 E2 2018-20.9: n=82 mean=-3.07pip PF=0.610 t=-1.66
+  to 12:00 E3 2020.10-23: n=97 mean=-2.59pip PF=0.756 t=-0.96
+  to 12:00 E4 2024-26: n=85 mean=+5.16pip PF=1.850 t=1.91
+  to 12:00 ALL: n=355 mean=-0.72pip PF=0.921 t=-0.51
+-- AUD_JPY GOTOBI only, Tue/Wed/Fri, SHORT 09:55 bid -> buyback ask
+  to 10:30 E1 2015-17: n=91 mean=-0.90pip PF=0.808 t=-0.76
+  to 10:30 E2 2018-20.9: n=82 mean=-1.90pip PF=0.624 t=-1.63
+  to 10:30 E3 2020.10-23: n=97 mean=-1.21pip PF=0.765 t=-0.98
+  to 10:30 E4 2024-26: n=85 mean=+1.28pip PF=1.414 t=1.10
+  to 10:30 ALL: n=355 mean=-0.69pip PF=0.847 t=-1.15
+  to 11:00 E1 2015-17: n=91 mean=-5.56pip PF=0.481 t=-2.51
+  to 11:00 E2 2018-20.9: n=82 mean=-2.58pip PF=0.618 t=-1.65
+  to 11:00 E3 2020.10-23: n=97 mean=-0.63pip PF=0.889 t=-0.42
+  to 11:00 E4 2024-26: n=85 mean=+3.14pip PF=1.799 t=1.95
+  to 11:00 ALL: n=355 mean=-1.44pip PF=0.788 t=-1.62
+  to 12:00 E1 2015-17: n=91 mean=-5.39pip PF=0.535 t=-2.03
+  to 12:00 E2 2018-20.9: n=82 mean=-3.52pip PF=0.562 t=-1.94
+  to 12:00 E3 2020.10-23: n=97 mean=-2.38pip PF=0.730 t=-1.11
+  to 12:00 E4 2024-26: n=85 mean=+1.68pip PF=1.281 t=0.82
+  to 12:00 ALL: n=355 mean=-2.44pip PF=0.718 t=-2.19
+-- EUR_JPY GOTOBI only, Tue/Wed/Fri, SHORT 09:55 bid -> buyback ask
+  to 10:30 E1 2015-17: n=89 mean=+0.86pip PF=1.256 t=0.75
+  to 10:30 E2 2018-20.9: n=82 mean=-1.85pip PF=0.604 t=-1.62
+  to 10:30 E3 2020.10-23: n=97 mean=-0.15pip PF=0.962 t=-0.14
+  to 10:30 E4 2024-26: n=85 mean=+3.57pip PF=2.255 t=2.61
+  to 10:30 ALL: n=353 mean=+0.61pip PF=1.163 t=1.01
+  to 11:00 E1 2015-17: n=91 mean=-2.55pip PF=0.643 t=-1.43
+  to 11:00 E2 2018-20.9: n=82 mean=-1.53pip PF=0.706 t=-1.13
+  to 11:00 E3 2020.10-23: n=97 mean=-0.45pip PF=0.919 t=-0.31
+  to 11:00 E4 2024-26: n=85 mean=+6.71pip PF=3.578 t=4.03
+  to 11:00 ALL: n=355 mean=+0.48pip PF=1.093 t=0.59
+  to 12:00 E1 2015-17: n=90 mean=-2.61pip PF=0.684 t=-1.22
+  to 12:00 E2 2018-20.9: n=82 mean=-1.95pip PF=0.676 t=-1.29
+  to 12:00 E3 2020.10-23: n=97 mean=-2.39pip PF=0.704 t=-1.24
+  to 12:00 E4 2024-26: n=85 mean=+4.90pip PF=1.911 t=2.07
+  to 12:00 ALL: n=354 mean=-0.59pip PF=0.915 t=-0.58
+-- CHF_JPY GOTOBI only, Tue/Wed/Fri, SHORT 09:55 bid -> buyback ask
+  to 10:30 E1 2015-17: n=91 mean=-1.09pip PF=0.727 t=-1.04
+  to 10:30 E2 2018-20.9: n=82 mean=-2.05pip PF=0.492 t=-2.47
+  to 10:30 E3 2020.10-23: n=97 mean=+0.37pip PF=1.115 t=0.40
+  to 10:30 E4 2024-26: n=85 mean=+2.24pip PF=1.613 t=1.54
+  to 10:30 ALL: n=355 mean=-0.12pip PF=0.968 t=-0.21
+  to 11:00 E1 2015-17: n=91 mean=-2.69pip PF=0.601 t=-1.61
+  to 11:00 E2 2018-20.9: n=82 mean=-1.56pip PF=0.650 t=-1.43
+  to 11:00 E3 2020.10-23: n=97 mean=-0.12pip PF=0.973 t=-0.09
+  to 11:00 E4 2024-26: n=85 mean=+4.86pip PF=2.514 t=2.93
+  to 11:00 ALL: n=355 mean=+0.08pip PF=1.017 t=0.11
+  to 12:00 E1 2015-17: n=91 mean=-2.54pip PF=0.677 t=-1.26
+  to 12:00 E2 2018-20.9: n=82 mean=-1.69pip PF=0.653 t=-1.45
+  to 12:00 E3 2020.10-23: n=97 mean=-1.08pip PF=0.841 t=-0.56
+  to 12:00 E4 2024-26: n=85 mean=+3.76pip PF=1.609 t=1.54
+  to 12:00 ALL: n=355 mean=-0.44pip PF=0.932 t=-0.44
