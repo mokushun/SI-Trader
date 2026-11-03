@@ -1,0 +1,154 @@
+=== Part 1. Pair x weekday x gotobi/non (executable pip). *Thu = 00:00->05:35 ===
+--- PRE 2015-20.9
+  USD_JPY Tue  GOTOBI: n=  56 mean= +4.71 PF=1.567 t=+1.27 win=61% sum=    +264
+  USD_JPY Tue  non   : n= 237 mean= -2.71 PF=0.780 t=-1.42 win=53% sum=    -642
+  USD_JPY Wed  GOTOBI: n=  59 mean= -1.85 PF=0.854 t=-0.43 win=47% sum=    -109
+  USD_JPY Wed  non   : n= 235 mean= -0.87 PF=0.920 t=-0.46 win=50% sum=    -205
+  USD_JPY Thu* GOTOBI: n=  54 mean= +6.73 PF=1.598 t=+1.16 win=56% sum=    +363
+  USD_JPY Thu* non   : n= 227 mean= -3.08 PF=0.776 t=-1.34 win=50% sum=    -699
+  USD_JPY Fri  GOTOBI: n=  58 mean=+12.50 PF=2.530 t=+2.52 win=62% sum=    +725
+  USD_JPY Fri  non   : n= 238 mean= +0.33 PF=1.027 t=+0.15 win=51% sum=     +78
+  GBP_JPY Tue  GOTOBI: n=  56 mean= +0.82 PF=1.057 t=+0.16 win=52% sum=     +46
+  GBP_JPY Tue  non   : n= 238 mean= -5.36 PF=0.732 t=-1.80 win=47% sum=   -1276
+  GBP_JPY Wed  GOTOBI: n=  59 mean= +7.17 PF=1.492 t=+1.14 win=63% sum=    +423
+  GBP_JPY Wed  non   : n= 237 mean= +1.69 PF=1.093 t=+0.51 win=53% sum=    +402
+  GBP_JPY Thu* GOTOBI: n=  57 mean= +5.63 PF=1.342 t=+0.80 win=46% sum=    +321
+  GBP_JPY Thu* non   : n= 233 mean= +0.13 PF=1.008 t=+0.04 win=50% sum=     +30
+  GBP_JPY Fri  GOTOBI: n=  58 mean= +9.11 PF=1.609 t=+1.43 win=55% sum=    +528
+  GBP_JPY Fri  non   : n= 238 mean= -0.40 PF=0.982 t=-0.09 win=48% sum=     -94
+  AUD_JPY Tue  GOTOBI: n=  56 mean= -2.10 PF=0.772 t=-0.77 win=46% sum=    -118
+  AUD_JPY Tue  non   : n= 238 mean= -3.13 PF=0.753 t=-1.64 win=49% sum=    -745
+  AUD_JPY Wed  GOTOBI: n=  59 mean= -3.21 PF=0.725 t=-0.96 win=46% sum=    -189
+  AUD_JPY Wed  non   : n= 237 mean= -1.93 PF=0.855 t=-0.85 win=50% sum=    -457
+  AUD_JPY Thu* GOTOBI: n=  57 mean= +6.85 PF=1.820 t=+1.61 win=61% sum=    +390
+  AUD_JPY Thu* non   : n= 239 mean= -0.28 PF=0.974 t=-0.15 win=49% sum=     -66
+  AUD_JPY Fri  GOTOBI: n=  58 mean= +9.39 PF=2.001 t=+2.00 win=71% sum=    +544
+  AUD_JPY Fri  non   : n= 238 mean= -1.86 PF=0.851 t=-0.89 win=47% sum=    -443
+  EUR_JPY Tue  GOTOBI: n=  56 mean= +7.31 PF=2.170 t=+2.06 win=68% sum=    +410
+  EUR_JPY Tue  non   : n= 237 mean= -3.24 PF=0.762 t=-1.53 win=43% sum=    -768
+  EUR_JPY Wed  GOTOBI: n=  59 mean= +2.86 PF=1.253 t=+0.67 win=54% sum=    +169
+  EUR_JPY Wed  non   : n= 237 mean= -0.73 PF=0.947 t=-0.34 win=50% sum=    -172
+  EUR_JPY Thu* GOTOBI: n=  55 mean= +8.76 PF=2.079 t=+1.90 win=51% sum=    +482
+  EUR_JPY Thu* non   : n= 217 mean= +2.83 PF=1.274 t=+1.27 win=52% sum=    +615
+  EUR_JPY Fri  GOTOBI: n=  58 mean= +5.39 PF=1.442 t=+1.10 win=66% sum=    +313
+  EUR_JPY Fri  non   : n= 238 mean= +1.74 PF=1.137 t=+0.73 win=51% sum=    +415
+  CHF_JPY Tue  GOTOBI: n=  56 mean= -1.39 PF=0.860 t=-0.41 win=46% sum=     -78
+  CHF_JPY Tue  non   : n= 238 mean= -5.67 PF=0.569 t=-3.30 win=43% sum=   -1349
+  CHF_JPY Wed  GOTOBI: n=  59 mean= -1.80 PF=0.833 t=-0.56 win=49% sum=    -106
+  CHF_JPY Wed  non   : n= 237 mean= -4.32 PF=0.650 t=-2.49 win=45% sum=   -1024
+  CHF_JPY Thu* GOTOBI: n=  57 mean= +5.89 PF=1.683 t=+1.43 win=53% sum=    +336
+  CHF_JPY Thu* non   : n= 240 mean= -2.40 PF=0.796 t=-1.27 win=48% sum=    -575
+  CHF_JPY Fri  GOTOBI: n=  58 mean= +6.01 PF=1.749 t=+1.67 win=60% sum=    +349
+  CHF_JPY Fri  non   : n= 238 mean= +2.31 PF=1.236 t=+0.92 win=50% sum=    +549
+
+--- POST 2020.10-26
+  USD_JPY Tue  GOTOBI: n=  61 mean= +7.91 PF=2.023 t=+2.09 win=64% sum=    +482
+  USD_JPY Tue  non   : n= 253 mean= +4.88 PF=1.503 t=+2.18 win=56% sum=   +1235
+  USD_JPY Wed  GOTOBI: n=  60 mean= +4.02 PF=1.388 t=+0.88 win=55% sum=    +241
+  USD_JPY Wed  non   : n= 255 mean= +4.94 PF=1.437 t=+1.91 win=59% sum=   +1259
+  USD_JPY Thu* GOTOBI: n=  62 mean=+14.80 PF=2.576 t=+2.16 win=66% sum=    +917
+  USD_JPY Thu* non   : n= 254 mean= +1.57 PF=1.125 t=+0.61 win=54% sum=    +400
+  USD_JPY Fri  GOTOBI: n=  61 mean= +6.81 PF=1.559 t=+1.38 win=57% sum=    +415
+  USD_JPY Fri  non   : n= 253 mean= -1.08 PF=0.926 t=-0.42 win=52% sum=    -273
+  GBP_JPY Tue  GOTOBI: n=  61 mean=+11.54 PF=2.613 t=+2.85 win=66% sum=    +704
+  GBP_JPY Tue  non   : n= 253 mean= +5.73 PF=1.399 t=+1.82 win=54% sum=   +1450
+  GBP_JPY Wed  GOTOBI: n=  60 mean=+11.67 PF=1.973 t=+1.57 win=62% sum=    +700
+  GBP_JPY Wed  non   : n= 255 mean= +4.11 PF=1.274 t=+1.38 win=58% sum=   +1049
+  GBP_JPY Thu* GOTOBI: n=  62 mean=+14.17 PF=2.058 t=+1.51 win=55% sum=    +879
+  GBP_JPY Thu* non   : n= 254 mean= +3.15 PF=1.199 t=+1.03 win=56% sum=    +799
+  GBP_JPY Fri  GOTOBI: n=  61 mean= +1.78 PF=1.101 t=+0.27 win=56% sum=    +109
+  GBP_JPY Fri  non   : n= 253 mean= -3.19 PF=0.847 t=-0.92 win=52% sum=    -806
+  AUD_JPY Tue  GOTOBI: n=  61 mean= +2.46 PF=1.298 t=+0.67 win=59% sum=    +150
+  AUD_JPY Tue  non   : n= 253 mean= +0.88 PF=1.086 t=+0.44 win=53% sum=    +222
+  AUD_JPY Wed  GOTOBI: n=  60 mean=+10.77 PF=2.695 t=+2.52 win=63% sum=    +646
+  AUD_JPY Wed  non   : n= 255 mean= +3.15 PF=1.321 t=+1.53 win=58% sum=    +804
+  AUD_JPY Thu* GOTOBI: n=  62 mean= +9.21 PF=2.266 t=+1.32 win=52% sum=    +571
+  AUD_JPY Thu* non   : n= 254 mean= -0.61 PF=0.944 t=-0.31 win=53% sum=    -154
+  AUD_JPY Fri  GOTOBI: n=  61 mean= -3.96 PF=0.698 t=-1.07 win=51% sum=    -241
+  AUD_JPY Fri  non   : n= 253 mean= -3.58 PF=0.765 t=-1.47 win=48% sum=    -905
+  EUR_JPY Tue  GOTOBI: n=  61 mean= +7.90 PF=2.028 t=+2.14 win=61% sum=    +482
+  EUR_JPY Tue  non   : n= 253 mean= +2.86 PF=1.243 t=+1.18 win=55% sum=    +723
+  EUR_JPY Wed  GOTOBI: n=  60 mean=+10.95 PF=2.107 t=+1.66 win=57% sum=    +657
+  EUR_JPY Wed  non   : n= 255 mean= +2.73 PF=1.229 t=+1.18 win=57% sum=    +697
+  EUR_JPY Thu* GOTOBI: n=  60 mean=+10.88 PF=2.314 t=+1.97 win=60% sum=    +653
+  EUR_JPY Thu* non   : n= 246 mean= -0.25 PF=0.981 t=-0.10 win=52% sum=     -62
+  EUR_JPY Fri  GOTOBI: n=  61 mean= +7.80 PF=1.806 t=+1.63 win=61% sum=    +476
+  EUR_JPY Fri  non   : n= 253 mean= -1.48 PF=0.908 t=-0.55 win=52% sum=    -374
+  CHF_JPY Tue  GOTOBI: n=  61 mean= +8.04 PF=1.960 t=+1.89 win=62% sum=    +491
+  CHF_JPY Tue  non   : n= 253 mean= +0.55 PF=1.046 t=+0.25 win=50% sum=    +139
+  CHF_JPY Wed  GOTOBI: n=  60 mean= +6.66 PF=1.706 t=+1.42 win=53% sum=    +399
+  CHF_JPY Wed  non   : n= 255 mean= +2.86 PF=1.253 t=+1.24 win=53% sum=    +730
+  CHF_JPY Thu* GOTOBI: n=  61 mean=+13.96 PF=3.258 t=+3.16 win=66% sum=    +851
+  CHF_JPY Thu* non   : n= 253 mean= -2.95 PF=0.776 t=-1.34 win=48% sum=    -745
+  CHF_JPY Fri  GOTOBI: n=  61 mean=+10.39 PF=2.241 t=+2.42 win=62% sum=    +634
+  CHF_JPY Fri  non   : n= 253 mean= +1.88 PF=1.141 t=+0.72 win=49% sum=    +477
+
+--- FULL 2015-26
+  USD_JPY Tue  GOTOBI: n= 117 mean= +6.38 PF=1.797 t=+2.40 win=62% sum=    +746
+  USD_JPY Tue  non   : n= 490 mean= +1.21 PF=1.110 t=+0.81 win=54% sum=    +592
+  USD_JPY Wed  GOTOBI: n= 119 mean= +1.11 PF=1.097 t=+0.35 win=51% sum=    +132
+  USD_JPY Wed  non   : n= 490 mean= +2.15 PF=1.193 t=+1.32 win=55% sum=   +1053
+  USD_JPY Thu* GOTOBI: n= 116 mean=+11.04 PF=2.076 t=+2.42 win=61% sum=   +1281
+  USD_JPY Thu* non   : n= 481 mean= -0.62 PF=0.953 t=-0.35 win=52% sum=    -299
+  USD_JPY Fri  GOTOBI: n= 119 mean= +9.58 PF=1.937 t=+2.74 win=60% sum=   +1140
+  USD_JPY Fri  non   : n= 491 mean= -0.40 PF=0.970 t=-0.23 win=52% sum=    -195
+  GBP_JPY Tue  GOTOBI: n= 117 mean= +6.41 PF=1.603 t=+1.94 win=59% sum=    +750
+  GBP_JPY Tue  non   : n= 491 mean= +0.35 PF=1.021 t=+0.16 win=51% sum=    +174
+  GBP_JPY Wed  GOTOBI: n= 119 mean= +9.44 PF=1.711 t=+1.94 win=62% sum=   +1123
+  GBP_JPY Wed  non   : n= 492 mean= +2.95 PF=1.178 t=+1.33 win=56% sum=   +1451
+  GBP_JPY Thu* GOTOBI: n= 119 mean=+10.08 PF=1.679 t=+1.70 win=50% sum=   +1199
+  GBP_JPY Thu* non   : n= 487 mean= +1.70 PF=1.104 t=+0.77 win=53% sum=    +829
+  GBP_JPY Fri  GOTOBI: n= 119 mean= +5.35 PF=1.328 t=+1.15 win=55% sum=    +637
+  GBP_JPY Fri  non   : n= 491 mean= -1.83 PF=0.914 t=-0.64 win=50% sum=    -901
+  AUD_JPY Tue  GOTOBI: n= 117 mean= +0.28 PF=1.032 t=+0.12 win=53% sum=     +32
+  AUD_JPY Tue  non   : n= 491 mean= -1.07 PF=0.906 t=-0.77 win=51% sum=    -523
+  AUD_JPY Wed  GOTOBI: n= 119 mean= +3.84 PF=1.428 t=+1.37 win=55% sum=    +457
+  AUD_JPY Wed  non   : n= 492 mean= +0.71 PF=1.061 t=+0.46 win=54% sum=    +347
+  AUD_JPY Thu* GOTOBI: n= 119 mean= +8.08 PF=2.037 t=+1.94 win=56% sum=    +961
+  AUD_JPY Thu* non   : n= 493 mean= -0.45 PF=0.959 t=-0.33 win=51% sum=    -221
+  AUD_JPY Fri  GOTOBI: n= 119 mean= +2.55 PF=1.225 t=+0.84 win=61% sum=    +303
+  AUD_JPY Fri  non   : n= 491 mean= -2.75 PF=0.802 t=-1.70 win=48% sum=   -1348
+  EUR_JPY Tue  GOTOBI: n= 117 mean= +7.62 PF=2.089 t=+2.97 win=64% sum=    +891
+  EUR_JPY Tue  non   : n= 490 mean= -0.09 PF=0.993 t=-0.06 win=49% sum=     -45
+  EUR_JPY Wed  GOTOBI: n= 119 mean= +6.94 PF=1.655 t=+1.75 win=55% sum=    +825
+  EUR_JPY Wed  non   : n= 492 mean= +1.07 PF=1.084 t=+0.67 win=54% sum=    +524
+  EUR_JPY Thu* GOTOBI: n= 115 mean= +9.86 PF=2.203 t=+2.71 win=56% sum=   +1134
+  EUR_JPY Thu* non   : n= 463 mean= +1.19 PF=1.101 t=+0.72 win=52% sum=    +553
+  EUR_JPY Fri  GOTOBI: n= 119 mean= +6.62 PF=1.608 t=+1.93 win=63% sum=    +788
+  EUR_JPY Fri  non   : n= 491 mean= +0.08 PF=1.006 t=+0.05 win=51% sum=     +41
+  CHF_JPY Tue  GOTOBI: n= 117 mean= +3.52 PF=1.385 t=+1.27 win=55% sum=    +412
+  CHF_JPY Tue  non   : n= 491 mean= -2.46 PF=0.804 t=-1.73 win=46% sum=   -1210
+  CHF_JPY Wed  GOTOBI: n= 119 mean= +2.46 PF=1.244 t=+0.86 win=51% sum=    +293
+  CHF_JPY Wed  non   : n= 492 mean= -0.60 PF=0.949 t=-0.41 win=49% sum=    -294
+  CHF_JPY Thu* GOTOBI: n= 118 mean=+10.06 PF=2.366 t=+3.30 win=59% sum=   +1187
+  CHF_JPY Thu* non   : n= 493 mean= -2.68 PF=0.786 t=-1.84 win=48% sum=   -1320
+  CHF_JPY Fri  GOTOBI: n= 119 mean= +8.26 PF=2.006 t=+2.93 win=61% sum=    +983
+  CHF_JPY Fri  non   : n= 491 mean= +2.09 PF=1.180 t=+1.16 win=50% sum=   +1026
+
+=== Part 2. Friday non-gotobi sub-split (FULL, executable pip) ===
+Fri-before-Sat-gotobi: (d+1).day%5==0 | Sun: (d+2)%5==0 | Mon: (d+3)%5==0 | plain: rest
+  USD_JPY Fri gotobi-Fri: n= 119 mean= +9.58 PF=1.937 t=+2.74 win=60% sum=   +1140
+  USD_JPY Fri pre-Sat   : n= 120 mean= +1.00 PF=1.089 t=+0.33 win=54% sum=    +121
+  USD_JPY Fri pre-Sun   : n= 120 mean= -0.68 PF=0.954 t=-0.17 win=55% sum=     -82
+  USD_JPY Fri pre-Mon   : n= 118 mean= -1.91 PF=0.861 t=-0.57 win=50% sum=    -225
+  USD_JPY Fri plain     : n= 133 mean= -0.06 PF=0.995 t=-0.02 win=47% sum=      -9
+  GBP_JPY Fri gotobi-Fri: n= 119 mean= +5.35 PF=1.328 t=+1.15 win=55% sum=    +637
+  GBP_JPY Fri pre-Sat   : n= 120 mean= -5.48 PF=0.738 t=-1.05 win=52% sum=    -658
+  GBP_JPY Fri pre-Sun   : n= 120 mean= +3.27 PF=1.157 t=+0.49 win=52% sum=    +392
+  GBP_JPY Fri pre-Mon   : n= 118 mean= +1.16 PF=1.058 t=+0.19 win=53% sum=    +136
+  GBP_JPY Fri plain     : n= 133 mean= -5.80 PF=0.752 t=-1.20 win=43% sum=    -771
+  AUD_JPY Fri gotobi-Fri: n= 119 mean= +2.55 PF=1.225 t=+0.84 win=61% sum=    +303
+  AUD_JPY Fri pre-Sat   : n= 120 mean= -2.28 PF=0.825 t=-0.76 win=50% sum=    -274
+  AUD_JPY Fri pre-Sun   : n= 120 mean= -1.46 PF=0.889 t=-0.46 win=49% sum=    -175
+  AUD_JPY Fri pre-Mon   : n= 118 mean= +0.02 PF=1.002 t=+0.01 win=49% sum=      +3
+  AUD_JPY Fri plain     : n= 133 mean= -6.78 PF=0.593 t=-2.14 win=43% sum=    -902
+  EUR_JPY Fri gotobi-Fri: n= 119 mean= +6.62 PF=1.608 t=+1.93 win=63% sum=    +788
+  EUR_JPY Fri pre-Sat   : n= 120 mean= +1.82 PF=1.140 t=+0.52 win=59% sum=    +218
+  EUR_JPY Fri pre-Sun   : n= 120 mean= -1.81 PF=0.881 t=-0.48 win=53% sum=    -217
+  EUR_JPY Fri pre-Mon   : n= 118 mean= +1.56 PF=1.107 t=+0.40 win=48% sum=    +184
+  EUR_JPY Fri plain     : n= 133 mean= -1.09 PF=0.927 t=-0.33 win=45% sum=    -145
+  CHF_JPY Fri gotobi-Fri: n= 119 mean= +8.26 PF=2.006 t=+2.93 win=61% sum=    +983
+  CHF_JPY Fri pre-Sat   : n= 120 mean= +2.10 PF=1.200 t=+0.72 win=53% sum=    +252
+  CHF_JPY Fri pre-Sun   : n= 120 mean= -2.73 PF=0.806 t=-0.79 win=47% sum=    -327
+  CHF_JPY Fri pre-Mon   : n= 118 mean= +1.56 PF=1.126 t=+0.47 win=52% sum=    +184
+  CHF_JPY Fri plain     : n= 133 mean= +6.90 PF=1.699 t=+1.58 win=47% sum=    +917
