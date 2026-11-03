@@ -1,0 +1,24 @@
+===== PRE 2015-20.9 =====
+  CURRENT     : total=   +193353yen month=  +2802 worst-month=  -48862 pos=59% t=1.21 worst-day=  -26294
+  PROPOSED    : total=   +230509yen month=  +3341 worst-month=  -48164 pos=61% t=1.41 worst-day=  -29885
+  PROP-noCHFri: total=   +219197yen month=  +3177 worst-month=  -48472 pos=61% t=1.34 worst-day=  -29885
+===== POST 2020.10-26 =====
+  CURRENT     : total=   +977814yen month= +13395 worst-month=  -36003 pos=70% t=4.63 worst-day=  -33843
+  PROPOSED    : total=  +1090713yen month= +14941 worst-month=  -30783 pos=74% t=5.02 worst-day=  -41684
+  PROP-noCHFri: total=  +1076720yen month= +14750 worst-month=  -31478 pos=75% t=5.01 worst-day=  -41684
+===== FULL 2015-26 =====
+  CURRENT     : total=  +1171167yen month=  +8248 worst-month=  -48862 pos=65% t=4.30 worst-day=  -33843
+  PROPOSED    : total=  +1321222yen month=  +9304 worst-month=  -48164 pos=68% t=4.71 worst-day=  -41684
+  PROP-noCHFri: total=  +1295916yen month=  +9126 worst-month=  -48472 pos=68% t=4.65 worst-day=  -41684
+===== Fridays only, FULL =====
+  CURRENT : total=   +178331yen month=  +1256 worst-month=  -33330 pos=58% t=1.25 worst-day=  -30751
+  PROPOSED: total=   +225293yen month=  +1587 worst-month=  -23252 pos=64% t=2.38 worst-day=  -23318
+===== Exposure (units, x1.4 incl.) =====
+  CUR wd=2: base units/day=16,660, gotobi day=37,660
+  CUR wd=3: base units/day=14,840, gotobi day=35,840
+  CUR wd=4: base units/day=13,440, gotobi day=34,440
+  CUR wd=5: base units/day=11,760, gotobi day=32,760
+  NEW wd=2: base units/day=14,560, gotobi day=35,560
+  NEW wd=3: base units/day=14,700, gotobi day=35,700
+  NEW wd=4: base units/day=14,700, gotobi day=35,700
+  NEW wd=5: base units/day=5,880, gotobi day=26,880
