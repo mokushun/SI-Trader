@@ -1,0 +1,25 @@
+SPX500_USD->JP225_USD |D|>=p99(23.4bp) H=15: n=4689 gross=+0.46bp NET=-3.07bp t=-6.02 win=45% PF=0.78
+SPX500_USD->JP225_USD |D|>=p99(23.4bp) H=30: n=3462 gross=-0.28bp NET=-3.73bp t=-4.79 win=46% PF=0.79
+SPX500_USD->JP225_USD |D|>=p99.5(29.6bp) H=15: n=2476 gross=+1.27bp NET=-2.53bp t=-3.07 win=47% PF=0.84
+SPX500_USD->JP225_USD |D|>=p99.5(29.6bp) H=30: n=1906 gross=-0.18bp NET=-3.94bp t=-3.28 win=47% PF=0.80
+
+NAS100_USD->SPX500_USD |D|>=p99(9.0bp) H=15: n=5301 gross=+0.39bp NET=-0.73bp t=-2.03 win=48% PF=0.92
+NAS100_USD->SPX500_USD |D|>=p99(9.0bp) H=30: n=4035 gross=+0.77bp NET=-0.32bp t=-0.60 win=49% PF=0.97
+NAS100_USD->SPX500_USD |D|>=p99.5(11.4bp) H=15: n=2932 gross=+1.41bp NET=+0.26bp t=+0.47 win=50% PF=1.03
+NAS100_USD->SPX500_USD |D|>=p99.5(11.4bp) H=30: n=2327 gross=+0.69bp NET=-0.41bp t=-0.54 win=49% PF=0.97
+
+EUR_USD->GBP_USD |D|>=p99(7.7bp) H=15: n=6576 gross=+0.36bp NET=-1.29bp t=-8.63 win=46% PF=0.73
+EUR_USD->GBP_USD |D|>=p99(7.7bp) H=30: n=5184 gross=+0.28bp NET=-1.34bp t=-6.28 win=47% PF=0.78
+EUR_USD->GBP_USD |D|>=p99.5(9.5bp) H=15: n=3398 gross=+0.33bp NET=-1.41bp t=-5.72 win=47% PF=0.74
+EUR_USD->GBP_USD |D|>=p99.5(9.5bp) H=30: n=2779 gross=+0.41bp NET=-1.28bp t=-3.85 win=47% PF=0.81
+
+USD_JPY->GBP_JPY |D|>=p99(10.0bp) H=15: n=6595 gross=+0.33bp NET=-1.73bp t=-10.59 win=45% PF=0.67
+USD_JPY->GBP_JPY |D|>=p99(10.0bp) H=30: n=5240 gross=+0.05bp NET=-1.95bp t=-8.31 win=46% PF=0.71
+USD_JPY->GBP_JPY |D|>=p99.5(12.4bp) H=15: n=3465 gross=+0.17bp NET=-1.98bp t=-7.52 win=45% PF=0.68
+USD_JPY->GBP_JPY |D|>=p99.5(12.4bp) H=30: n=2838 gross=+0.00bp NET=-2.09bp t=-5.57 win=47% PF=0.72
+
+SPX500_USD->AUD_JPY |D|>=p99(12.3bp) H=15: n=5907 gross=+0.11bp NET=-2.16bp t=-10.54 win=45% PF=0.66
+SPX500_USD->AUD_JPY |D|>=p99(12.3bp) H=30: n=4660 gross=+0.19bp NET=-2.06bp t=-6.81 win=47% PF=0.74
+SPX500_USD->AUD_JPY |D|>=p99.5(15.3bp) H=15: n=2970 gross=-0.19bp NET=-2.59bp t=-7.40 win=46% PF=0.67
+SPX500_USD->AUD_JPY |D|>=p99.5(15.3bp) H=30: n=2421 gross=-0.13bp NET=-2.50bp t=-5.08 win=48% PF=0.74
+

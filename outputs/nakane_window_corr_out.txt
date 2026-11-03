@@ -1,0 +1,17 @@
+common Tue-Fri entry dates: 1245 2020-10-02 2026-10-29
+USD_JPY / EUR_JPY: +0.610
+USD_JPY / GBP_JPY: +0.580
+USD_JPY / AUD_JPY: +0.452
+USD_JPY / CHF_JPY: +0.514
+EUR_JPY / GBP_JPY: +0.840
+EUR_JPY / AUD_JPY: +0.736
+EUR_JPY / CHF_JPY: +0.776
+GBP_JPY / AUD_JPY: +0.801
+GBP_JPY / CHF_JPY: +0.653
+AUD_JPY / CHF_JPY: +0.540
+mean pairwise r: 0.65
+USD_JPY mean bp: 3.31
+EUR_JPY mean bp: 2.66
+GBP_JPY mean bp: 3.47
+AUD_JPY mean bp: 2.45
+CHF_JPY mean bp: 2.73

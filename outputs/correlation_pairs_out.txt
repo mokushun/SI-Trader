@@ -1,0 +1,187 @@
+hourly shape (36399, 21) 2020-10-01 00:00:00+00:00 2026-10-29 04:00:00+00:00
+
+===== HOURLY log returns 2020-10-01..2026-10-29  obs median n=34910 rows, instruments=21 =====
+Top positive:
+  NAS100_USD   SPX500_USD    r=+0.932  n=33667
+  EUR_JPY      GBP_JPY       r=+0.801  n=34666
+  CHF_JPY      EUR_JPY       r=+0.780  n=34651
+  EUR_USD      GBP_USD       r=+0.743  n=34683
+  AUD_JPY      GBP_JPY       r=+0.726  n=34732
+  EUR_AUD      GBP_AUD       r=+0.717  n=34706
+  AUD_JPY      EUR_JPY       r=+0.708  n=34671
+  AUD_CHF      AUD_JPY       r=+0.700  n=34653
+  AUD_USD      GBP_USD       r=+0.678  n=34535
+  AUD_CHF      AUD_USD       r=+0.672  n=34540
+  JP225_USD    SPX500_USD    r=+0.667  n=32987
+  EUR_JPY      USD_JPY       r=+0.658  n=34690
+  AUD_USD      EUR_USD       r=+0.652  n=34564
+  CHF_JPY      GBP_JPY       r=+0.651  n=34717
+  JP225_USD    NAS100_USD    r=+0.645  n=33370
+Top negative:
+  AUD_CHF      EUR_AUD       r=-0.791  n=34644
+  EUR_USD      USD_CHF       r=-0.738  n=33916
+  AUD_USD      EUR_AUD       r=-0.693  n=34569
+  EUR_GBP      GBP_CHF       r=-0.677  n=34590
+  AUD_JPY      EUR_AUD       r=-0.618  n=34723
+  AUD_CHF      GBP_AUD       r=-0.609  n=34643
+  GBP_USD      USD_CHF       r=-0.591  n=33903
+  AUD_USD      GBP_AUD       r=-0.575  n=34564
+  AUD_USD      USD_CHF       r=-0.533  n=33809
+  EUR_GBP      GBP_USD       r=-0.523  n=34580
+  AUD_JPY      GBP_AUD       r=-0.519  n=34723
+  EUR_USD      USD_JPY       r=-0.472  n=34714
+  EUR_GBP      GBP_JPY       r=-0.452  n=34603
+  GBP_USD      USD_JPY       r=-0.420  n=34702
+  EUR_AUD      SPX500_USD    r=-0.410  n=33762
+Strongest |r| overall:
+  NAS100_USD   SPX500_USD    r=+0.932  n=33667
+  EUR_JPY      GBP_JPY       r=+0.801  n=34666
+  AUD_CHF      EUR_AUD       r=-0.791  n=34644
+  CHF_JPY      EUR_JPY       r=+0.780  n=34651
+  EUR_USD      GBP_USD       r=+0.743  n=34683
+  EUR_USD      USD_CHF       r=-0.738  n=33916
+  AUD_JPY      GBP_JPY       r=+0.726  n=34732
+  EUR_AUD      GBP_AUD       r=+0.717  n=34706
+  AUD_JPY      EUR_JPY       r=+0.708  n=34671
+  AUD_CHF      AUD_JPY       r=+0.700  n=34653
+  AUD_USD      EUR_AUD       r=-0.693  n=34569
+  AUD_USD      GBP_USD       r=+0.678  n=34535
+  EUR_GBP      GBP_CHF       r=-0.677  n=34590
+  AUD_CHF      AUD_USD       r=+0.672  n=34540
+  JP225_USD    SPX500_USD    r=+0.667  n=32987
+  EUR_JPY      USD_JPY       r=+0.658  n=34690
+  AUD_USD      EUR_USD       r=+0.652  n=34564
+  CHF_JPY      GBP_JPY       r=+0.651  n=34717
+  JP225_USD    NAS100_USD    r=+0.645  n=33370
+  EUR_CHF      GBP_CHF       r=+0.633  n=34440
+
+daily shape (1576, 21)
+
+===== DAILY (00:00 UTC sample) log returns  obs median n=1254 rows, instruments=21 =====
+Top positive:
+  NAS100_USD   SPX500_USD    r=+0.934  n=1243
+  EUR_JPY      GBP_JPY       r=+0.816  n=1251
+  CHF_JPY      EUR_JPY       r=+0.799  n=1250
+  EUR_USD      GBP_USD       r=+0.761  n=1251
+  AUD_JPY      GBP_JPY       r=+0.739  n=1253
+  EUR_AUD      GBP_AUD       r=+0.731  n=1254
+  AUD_JPY      EUR_JPY       r=+0.713  n=1251
+  JP225_USD    NAS100_USD    r=+0.701  n=1243
+  JP225_USD    SPX500_USD    r=+0.694  n=1247
+  AUD_USD      GBP_USD       r=+0.690  n=1249
+  AUD_CHF      AUD_JPY       r=+0.669  n=1254
+  EUR_CHF      GBP_CHF       r=+0.668  n=1244
+  EUR_JPY      USD_JPY       r=+0.661  n=1251
+  CHF_JPY      GBP_JPY       r=+0.656  n=1252
+  AUD_USD      EUR_USD       r=+0.655  n=1251
+Top negative:
+  AUD_CHF      EUR_AUD       r=-0.800  n=1254
+  EUR_USD      USD_CHF       r=-0.768  n=1218
+  EUR_GBP      GBP_CHF       r=-0.686  n=1251
+  AUD_USD      EUR_AUD       r=-0.675  n=1251
+  AUD_CHF      GBP_AUD       r=-0.607  n=1254
+  GBP_USD      USD_CHF       r=-0.603  n=1215
+  AUD_JPY      EUR_AUD       r=-0.598  n=1254
+  AUD_USD      GBP_AUD       r=-0.580  n=1251
+  AUD_USD      USD_CHF       r=-0.530  n=1215
+  AUD_JPY      GBP_AUD       r=-0.520  n=1254
+  EUR_GBP      GBP_USD       r=-0.482  n=1248
+  EUR_USD      USD_JPY       r=-0.477  n=1254
+  EUR_AUD      SPX500_USD    r=-0.460  n=1247
+  GBP_USD      USD_JPY       r=-0.439  n=1251
+  USD_CHF      XAU_USD       r=-0.424  n=1212
+Strongest |r| overall:
+  NAS100_USD   SPX500_USD    r=+0.934  n=1243
+  EUR_JPY      GBP_JPY       r=+0.816  n=1251
+  AUD_CHF      EUR_AUD       r=-0.800  n=1254
+  CHF_JPY      EUR_JPY       r=+0.799  n=1250
+  EUR_USD      USD_CHF       r=-0.768  n=1218
+  EUR_USD      GBP_USD       r=+0.761  n=1251
+  AUD_JPY      GBP_JPY       r=+0.739  n=1253
+  EUR_AUD      GBP_AUD       r=+0.731  n=1254
+  AUD_JPY      EUR_JPY       r=+0.713  n=1251
+  JP225_USD    NAS100_USD    r=+0.701  n=1243
+  JP225_USD    SPX500_USD    r=+0.694  n=1247
+  AUD_USD      GBP_USD       r=+0.690  n=1249
+  EUR_GBP      GBP_CHF       r=-0.686  n=1251
+  AUD_USD      EUR_AUD       r=-0.675  n=1251
+  AUD_CHF      AUD_JPY       r=+0.669  n=1254
+  EUR_CHF      GBP_CHF       r=+0.668  n=1244
+  EUR_JPY      USD_JPY       r=+0.661  n=1251
+  CHF_JPY      GBP_JPY       r=+0.656  n=1252
+  AUD_USD      EUR_USD       r=+0.655  n=1251
+  AUD_CHF      AUD_USD       r=+0.635  n=1251
+
+===== HOURLY last 1y 2025-10-29..2026-10-29  obs median n=5702 rows, instruments=21 =====
+Top positive:
+  NAS100_USD   SPX500_USD    r=+0.930  n=5639
+  EUR_JPY      GBP_JPY       r=+0.864  n=5702
+  EUR_USD      GBP_USD       r=+0.828  n=5702
+  EUR_AUD      GBP_AUD       r=+0.821  n=5700
+  CHF_JPY      EUR_JPY       r=+0.820  n=5698
+  AUD_JPY      GBP_JPY       r=+0.749  n=5702
+  AUD_JPY      EUR_JPY       r=+0.742  n=5702
+  JP225_USD    NAS100_USD    r=+0.734  n=5469
+  CHF_JPY      GBP_JPY       r=+0.734  n=5698
+  AUD_USD      GBP_USD       r=+0.716  n=5696
+  JP225_USD    SPX500_USD    r=+0.712  n=5459
+  AUD_USD      EUR_USD       r=+0.710  n=5696
+  EUR_CHF      GBP_CHF       r=+0.708  n=5694
+  EUR_JPY      USD_JPY       r=+0.688  n=5702
+  AUD_CHF      AUD_JPY       r=+0.666  n=5677
+Top negative:
+  AUD_CHF      EUR_AUD       r=-0.829  n=5677
+  EUR_USD      USD_CHF       r=-0.823  n=5700
+  AUD_USD      EUR_AUD       r=-0.748  n=5696
+  GBP_USD      USD_CHF       r=-0.722  n=5700
+  AUD_CHF      GBP_AUD       r=-0.719  n=5677
+  AUD_JPY      EUR_AUD       r=-0.680  n=5702
+  AUD_USD      GBP_AUD       r=-0.665  n=5696
+  AUD_JPY      GBP_AUD       r=-0.620  n=5700
+  EUR_GBP      GBP_CHF       r=-0.615  n=5695
+  AUD_USD      USD_CHF       r=-0.592  n=5694
+  EUR_USD      USD_JPY       r=-0.539  n=5702
+  GBP_USD      USD_JPY       r=-0.501  n=5702
+  EUR_AUD      SPX500_USD    r=-0.492  n=5639
+  EUR_GBP      GBP_USD       r=-0.465  n=5697
+  EUR_AUD      NAS100_USD    r=-0.462  n=5649
+Strongest |r| overall:
+  NAS100_USD   SPX500_USD    r=+0.930  n=5639
+  EUR_JPY      GBP_JPY       r=+0.864  n=5702
+  AUD_CHF      EUR_AUD       r=-0.829  n=5677
+  EUR_USD      GBP_USD       r=+0.828  n=5702
+  EUR_USD      USD_CHF       r=-0.823  n=5700
+  EUR_AUD      GBP_AUD       r=+0.821  n=5700
+  CHF_JPY      EUR_JPY       r=+0.820  n=5698
+  AUD_JPY      GBP_JPY       r=+0.749  n=5702
+  AUD_USD      EUR_AUD       r=-0.748  n=5696
+  AUD_JPY      EUR_JPY       r=+0.742  n=5702
+  JP225_USD    NAS100_USD    r=+0.734  n=5469
+  CHF_JPY      GBP_JPY       r=+0.734  n=5698
+  GBP_USD      USD_CHF       r=-0.722  n=5700
+  AUD_CHF      GBP_AUD       r=-0.719  n=5677
+  AUD_USD      GBP_USD       r=+0.716  n=5696
+  JP225_USD    SPX500_USD    r=+0.712  n=5459
+  AUD_USD      EUR_USD       r=+0.710  n=5696
+  EUR_CHF      GBP_CHF       r=+0.708  n=5694
+  EUR_JPY      USD_JPY       r=+0.688  n=5702
+  AUD_JPY      EUR_AUD       r=-0.680  n=5702
+
+===== Stability: top hourly full-period pairs, r_full vs r_1y =====
+  NAS100_USD   SPX500_USD    full=+0.932  1y=+0.930
+  EUR_JPY      GBP_JPY       full=+0.801  1y=+0.864
+  AUD_CHF      EUR_AUD       full=-0.791  1y=-0.829
+  CHF_JPY      EUR_JPY       full=+0.780  1y=+0.820
+  EUR_USD      GBP_USD       full=+0.743  1y=+0.828
+  EUR_USD      USD_CHF       full=-0.738  1y=-0.823
+  AUD_JPY      GBP_JPY       full=+0.726  1y=+0.749
+  EUR_AUD      GBP_AUD       full=+0.717  1y=+0.821
+  AUD_JPY      EUR_JPY       full=+0.708  1y=+0.742
+  AUD_CHF      AUD_JPY       full=+0.700  1y=+0.666
+  AUD_USD      EUR_AUD       full=-0.693  1y=-0.748
+  AUD_USD      GBP_USD       full=+0.678  1y=+0.716
+  EUR_GBP      GBP_CHF       full=-0.677  1y=-0.615
+  AUD_CHF      AUD_USD       full=+0.672  1y=+0.607
+  JP225_USD    SPX500_USD    full=+0.667  1y=+0.712
+
+saved csv/json to ~/workspace/corr_check/

@@ -1,0 +1,40 @@
+SPX500_USD 2089625 spread_med_bp=0.86 elapsed=5s
+NAS100_USD 2134426 spread_med_bp=1.07 elapsed=10s
+JP225_USD 2064079 spread_med_bp=2.69 elapsed=13s
+EUR_USD 2511344 spread_med_bp=1.37 elapsed=19s
+GBP_USD 2229406 spread_med_bp=1.42 elapsed=24s
+USD_JPY 2239827 spread_med_bp=1.18 elapsed=29s
+EUR_JPY 2232526 spread_med_bp=1.37 elapsed=33s
+GBP_JPY 2250338 spread_med_bp=1.68 elapsed=38s
+AUD_JPY 2256473 spread_med_bp=2.02 elapsed=45s
+
+=== Lag cross-correlation of 1-min log returns ===
+lag>0 : first instrument leads second by lag minutes
+
+SPX500_USD -> JP225_USD
+  -5:-0.003  -4:+0.002  -3:+0.001  -2:-0.001  -1:+0.014  +0:+0.631  +1:+0.016  +2:-0.000  +3:+0.004  +4:+0.002  +5:-0.001
+  lag+10:+0.003  lag-10:+0.002   contemporaneous(0):+0.631
+
+NAS100_USD -> SPX500_USD
+  -5:-0.003  -4:+0.002  -3:-0.001  -2:-0.004  -1:+0.008  +0:+0.918  +1:+0.015  +2:-0.005  +3:-0.001  +4:+0.003  +5:-0.003
+  lag+10:+0.005  lag-10:+0.004   contemporaneous(0):+0.918
+
+EUR_USD -> GBP_USD
+  -5:-0.003  -4:+0.000  -3:-0.005  -2:-0.002  -1:+0.002  +0:+0.710  +1:+0.005  +2:+0.000  +3:-0.005  +4:+0.001  +5:+0.001
+  lag+10:+0.001  lag-10:+0.001   contemporaneous(0):+0.710
+
+USD_JPY -> GBP_JPY
+  -5:-0.001  -4:-0.001  -3:-0.001  -2:-0.005  -1:-0.005  +0:+0.584  +1:-0.006  +2:-0.005  +3:-0.000  +4:-0.001  +5:-0.002
+  lag+10:+0.004  lag-10:+0.003   contemporaneous(0):+0.584
+
+USD_JPY -> EUR_JPY
+  -5:-0.002  -4:-0.001  -3:+0.000  -2:-0.004  -1:-0.004  +0:+0.643  +1:-0.004  +2:-0.005  +3:+0.000  +4:-0.001  +5:-0.002
+  lag+10:+0.005  lag-10:+0.004   contemporaneous(0):+0.643
+
+SPX500_USD -> AUD_JPY
+  -5:-0.002  -4:+0.002  -3:+0.002  -2:-0.000  -1:+0.011  +0:+0.433  +1:+0.016  +2:-0.000  +3:+0.002  +4:+0.002  +5:-0.001
+  lag+10:+0.002  lag-10:+0.002   contemporaneous(0):+0.433
+
+EUR_USD -> USD_JPY
+  -5:-0.001  -4:-0.001  -3:+0.002  -2:-0.000  -1:-0.004  +0:-0.447  +1:-0.003  +2:+0.001  +3:+0.001  +4:+0.000  +5:-0.002
+  lag+10:-0.001  lag-10:-0.000   contemporaneous(0):-0.447
