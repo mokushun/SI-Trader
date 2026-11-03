@@ -1,0 +1,21 @@
+===== PRE 2015-20.9 =====
+S0 all           days=1183 units=   5862 | daily mean=  -1.15 sd=146.89 mean/sd=-0.008 worst-day=  -685.1 | month mean=   -19.8 worst= -1675.3 pos=49% t=-0.36 total=    -1366
+S1 gotobi-only   days= 230 units=   1145 | daily mean= +22.01 sd=144.68 mean/sd=+0.152 worst-day=  -388.7 | month mean=   +73.4 worst=  -491.1 pos=58% t=2.32 total=    +5062
+S1x2 gotobi x2   days= 230 units=   2290 | daily mean= +44.02 sd=289.36 mean/sd=+0.152 worst-day=  -777.4 | month mean=  +146.7 worst=  -982.2 pos=58% t=2.32 total=   +10124
+S2 tilt .5       days=1183 units=   3504 | daily mean=  +1.56 sd= 92.28 mean/sd=+0.017 worst-day=  -388.7 | month mean=   +26.8 worst=  -798.2 pos=54% t=0.78 total=    +1848
+S3 selective     days=1182 units=   3028 | daily mean=  +2.25 sd= 94.28 mean/sd=+0.024 worst-day=  -388.7 | month mean=   +38.5 worst=  -989.3 pos=61% t=1.04 total=    +2655
+
+===== POST 2020.10-26 =====
+S0 all           days=1259 units=   6283 | daily mean= +13.40 sd=173.82 mean/sd=+0.077 worst-day= -1256.4 | month mean=  +231.2 worst= -1310.3 pos=67% t=3.19 total=   +16876
+S1 gotobi-only   days= 244 units=   1217 | daily mean= +41.87 sd=181.83 mean/sd=+0.230 worst-day=  -441.6 | month mean=  +139.9 worst=  -397.5 pos=66% t=3.86 total=   +10215
+S1x2 gotobi x2   days= 244 units=   2434 | daily mean= +83.73 sd=363.67 mean/sd=+0.230 worst-day=  -883.2 | month mean=  +279.9 worst=  -795.0 pos=66% t=3.86 total=   +20430
+S2 tilt .5       days=1259 units=   3750 | daily mean= +10.76 sd=112.00 mean/sd=+0.096 worst-day=  -628.2 | month mean=  +185.6 worst=  -603.0 pos=67% t=4.07 total=   +13545
+S3 selective     days=1259 units=   3247 | daily mean= +12.17 sd=108.75 mean/sd=+0.112 worst-day=  -598.3 | month mean=  +210.0 worst=  -486.6 pos=71% t=4.63 total=   +15327
+
+===== FULL 2015-26 =====
+S0 all           days=2442 units=  12145 | daily mean=  +6.35 sd=161.50 mean/sd=+0.039 worst-day= -1256.4 | month mean=  +109.2 worst= -1675.3 pos=58% t=2.32 total=   +15510
+S1 gotobi-only   days= 474 units=   2362 | daily mean= +32.23 sd=165.15 mean/sd=+0.195 worst-day=  -441.6 | month mean=  +107.6 worst=  -491.1 pos=62% t=4.42 total=   +15277
+S1x2 gotobi x2   days= 474 units=   4724 | daily mean= +64.46 sd=330.31 mean/sd=+0.195 worst-day=  -883.2 | month mean=  +215.2 worst=  -982.2 pos=62% t=4.42 total=   +30554
+S2 tilt .5       days=2442 units=   7254 | daily mean=  +6.30 sd=103.02 mean/sd=+0.061 worst-day=  -628.2 | month mean=  +108.4 worst=  -798.2 pos=61% t=3.66 total=   +15394
+S3 selective     days=2441 units=   6275 | daily mean=  +7.37 sd=102.12 mean/sd=+0.072 worst-day=  -598.3 | month mean=  +126.6 worst=  -989.3 pos=66% t=4.18 total=   +17982
+
