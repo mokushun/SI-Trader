@@ -1,0 +1,47 @@
+Rule check (5000 x FULL non-gotobi mean, floor 100) vs user table:
+  AUD_JPY wd=2: pred~   100 user=   100 OK
+  AUD_JPY wd=3: pred~  3550 user=  3550 OK
+  AUD_JPY wd=4: pred~   100 user=   200 OK
+  AUD_JPY wd=5: pred~   100 user=   100 OK
+  CHF_JPY wd=2: pred~   100 user=   100 OK
+  CHF_JPY wd=3: pred~   100 user=   100 OK
+  CHF_JPY wd=4: pred~   100 user=   100 OK
+  CHF_JPY wd=5: pred~ 10450 user= 10450 OK
+  EUR_JPY wd=2: pred~   100 user=   100 OK
+  EUR_JPY wd=3: pred~  5350 user=  5350 OK
+  EUR_JPY wd=4: pred~  5950 user=  5950 OK
+  EUR_JPY wd=5: pred~   400 user=   400 OK
+  GBP_JPY wd=2: pred~  1750 user=  1750 OK
+  GBP_JPY wd=3: pred~ 14750 user= 14750 OK
+  GBP_JPY wd=4: pred~  8500 user=  8500 OK
+  GBP_JPY wd=5: pred~   100 user=   100 OK
+  USD_JPY wd=2: pred~  6050 user=  6050 OK
+  USD_JPY wd=3: pred~ 10750 user= 10750 OK
+  USD_JPY wd=4: pred~   100 user=   100 OK
+  USD_JPY wd=5: pred~   100 user=   100 OK
+weekly base totals: CUR=40500 STRICT=68600 PROP=36400
+===== PRE =====
+  CUR             : total=   +193353yen month=  +2802 worst-month=  -48862 pos=59% t=1.21 worst-day=  -26294
+  PROP(AUD水1000)  : total=   +223276yen month=  +3236 worst-month=  -49864 pos=61% t=1.35 worst-day=  -29681
+  STRICT-raw      : total=   +506197yen month=  +7336 worst-month= -107031 pos=52% t=1.51 worst-day=  -59627
+  STRICT-norm     : total=   +384205yen month=  +5568 worst-month=  -62293 pos=54% t=1.73 worst-day=  -41660
+  SQRT-norm       : total=   +332750yen month=  +4822 worst-month=  -57425 pos=55% t=1.64 worst-day=  -36884
+===== POST =====
+  CUR             : total=   +977814yen month= +13395 worst-month=  -36003 pos=70% t=4.63 worst-day=  -33843
+  PROP(AUD水1000)  : total=  +1106949yen month= +15164 worst-month=  -30447 pos=73% t=5.08 worst-day=  -41684
+  STRICT-raw      : total=  +1804910yen month= +24725 worst-month=  -78274 pos=73% t=4.28 worst-day= -112705
+  STRICT-norm     : total=  +1243076yen month= +17028 worst-month=  -47887 pos=70% t=4.44 worst-day=  -66635
+  SQRT-norm       : total=  +1225035yen month= +16781 worst-month=  -43606 pos=71% t=4.73 worst-day=  -58502
+===== FULL =====
+  CUR             : total=  +1171167yen month=  +8248 worst-month=  -48862 pos=65% t=4.30 worst-day=  -33843
+  PROP(AUD水1000)  : total=  +1330225yen month=  +9368 worst-month=  -49864 pos=67% t=4.71 worst-day=  -41684
+  STRICT-raw      : total=  +2311107yen month= +16275 worst-month= -107031 pos=63% t=4.21 worst-day= -112705
+  STRICT-norm     : total=  +1627281yen month= +11460 worst-month=  -62293 pos=62% t=4.48 worst-day=  -66635
+  SQRT-norm       : total=  +1557785yen month= +10970 worst-month=  -57425 pos=63% t=4.64 worst-day=  -58502
+===== Exposure: units/day incl x1.4 (base / gotobi-day) =====
+  CUR              wd2: 16,660/37,660 | wd3: 14,840/35,840 | wd4: 13,440/34,440 | wd5: 11,760/32,760
+  PROP(AUD水1000)   wd2: 14,560/35,560 | wd3: 15,820/36,820 | wd4: 14,700/35,700 | wd5: 5,880/26,880
+  STRICT-raw       wd2: 11,340/32,340 | wd3: 48,300/69,300 | wd4: 20,790/41,790 | wd5: 15,610/36,610
+  STRICT-norm      wd2: 6,867/27,867 | wd3: 28,573/49,573 | wd4: 12,389/33,389 | wd5: 9,388/30,388
+  SQRT-norm        wd2: 9,080/30,080 | wd3: 26,048/47,048 | wd4: 12,679/33,679 | wd5: 9,269/30,269
+Reference: 2026-10-30 gate skip happened at planned 53,760 units (Fri, +6000 bonus era).
