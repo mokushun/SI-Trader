@@ -1,0 +1,4 @@
+HAND2 (bonus3000 x1.4)  : RT volume avg=553,243 min=444,856 >=500k 84% | max gotobi-day exposure=37,100 | POST total=+1,033,459 t=5.13 worst-month=-29,206 worst-day=-35,962
+table x1.5              : RT volume avg=755,637 min=624,604 >=500k 100% | max gotobi-day exposure=45,150 | POST total=+1,335,670 t=5.16 worst-month=-42,004 worst-day=-53,944
+bonus 3500              : RT volume avg=577,985 min=459,082 >=500k 96% | max gotobi-day exposure=40,600 | POST total=+1,104,966 t=5.10 worst-month=-29,808 worst-day=-35,962
+mult 1.4->1.5           : RT volume avg=592,760 min=476,631 >=500k 97% | max gotobi-day exposure=39,750 | POST total=+1,107,278 t=5.13 worst-month=-31,293 worst-day=-38,531
