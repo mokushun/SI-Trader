@@ -1,0 +1,23 @@
+===== PRE =====
+  CUR   : total=   +193353 month=  +2802 worst-month=  -48862 t=1.21 worst-day=  -26294
+  PROP2 : total=   +223276 month=  +3236 worst-month=  -49864 t=1.35 worst-day=  -29681
+  ADJ   : total=   +217718 month=  +3155 worst-month=  -44548 t=1.35 worst-day=  -27079
+  HAND2 : total=   +212390 month=  +3078 worst-month=  -40509 t=1.37 worst-day=  -29581
+===== POST =====
+  CUR   : total=   +977814 month= +13395 worst-month=  -36003 t=4.63 worst-day=  -33843
+  PROP2 : total=  +1106949 month= +15164 worst-month=  -30447 t=5.08 worst-day=  -41684
+  ADJ   : total=  +1145837 month= +15696 worst-month=  -31993 t=5.07 worst-day=  -40631
+  HAND2 : total=  +1033459 month= +14157 worst-month=  -29206 t=5.13 worst-day=  -35962
+===== FULL =====
+  CUR   : total=  +1171167 month=  +8248 worst-month=  -48862 t=4.30 worst-day=  -33843
+  PROP2 : total=  +1330225 month=  +9368 worst-month=  -49864 t=4.71 worst-day=  -41684
+  ADJ   : total=  +1363556 month=  +9603 worst-month=  -44548 t=4.74 worst-day=  -40631
+  HAND2 : total=  +1245850 month=  +8774 worst-month=  -40509 t=4.74 worst-day=  -35962
+
+Monthly executed volume, USD terms (ENTRY side only; round-trip = x2). Avg over FULL period:
+  CUR   : avg 326,146 USD/month (min month 241,964) | round-trip avg 652,292
+  PROP2 : avg 316,323 USD/month (min month 230,106) | round-trip avg 632,645
+  ADJ   : avg 311,585 USD/month (min month 227,267) | round-trip avg 623,171
+  HAND2 : avg 273,326 USD/month (min month 194,262) | round-trip avg 546,652
+HAND2 scale needed for 500k entry-side: x1.83 (all cells proportionally)
+HAND2 POST-era avg entry-side: 274,880 USD/month
