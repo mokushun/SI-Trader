@@ -1,0 +1,54 @@
+Gotobi means (pip) FULL / POST / score, n(FULL/POST):
+  USD_JPY wd=2: FULL +6.38 (n=117) | POST +7.91 (n=61) | score +7.14
+  USD_JPY wd=3: FULL +1.11 (n=119) | POST +4.02 (n=60) | score +2.56
+  USD_JPY wd=4: FULL +11.04 (n=116) | POST +14.80 (n=62) | score +12.92
+  USD_JPY wd=5: FULL +9.58 (n=119) | POST +6.81 (n=61) | score +8.20
+  GBP_JPY wd=2: FULL +6.41 (n=117) | POST +11.54 (n=61) | score +8.98
+  GBP_JPY wd=3: FULL +9.44 (n=119) | POST +11.67 (n=60) | score +10.55
+  GBP_JPY wd=4: FULL +10.08 (n=119) | POST +14.17 (n=62) | score +12.13
+  GBP_JPY wd=5: FULL +5.35 (n=119) | POST +1.78 (n=61) | score +3.57
+  AUD_JPY wd=2: FULL +0.28 (n=117) | POST +2.46 (n=61) | score +1.37
+  AUD_JPY wd=3: FULL +3.84 (n=119) | POST +10.77 (n=60) | score +7.30
+  AUD_JPY wd=4: FULL +8.08 (n=119) | POST +9.21 (n=62) | score +8.64
+  AUD_JPY wd=5: FULL +2.55 (n=119) | POST -3.96 (n=61) | score -0.71
+  EUR_JPY wd=2: FULL +7.62 (n=117) | POST +7.90 (n=61) | score +7.76
+  EUR_JPY wd=3: FULL +6.94 (n=119) | POST +10.95 (n=60) | score +8.94
+  EUR_JPY wd=4: FULL +9.86 (n=115) | POST +10.88 (n=60) | score +10.37
+  EUR_JPY wd=5: FULL +6.62 (n=119) | POST +7.80 (n=61) | score +7.21
+  CHF_JPY wd=2: FULL +3.52 (n=117) | POST +8.04 (n=61) | score +5.78
+  CHF_JPY wd=3: FULL +2.46 (n=119) | POST +6.66 (n=60) | score +4.56
+  CHF_JPY wd=4: FULL +10.06 (n=118) | POST +13.96 (n=61) | score +12.01
+  CHF_JPY wd=5: FULL +8.26 (n=119) | POST +10.39 (n=61) | score +9.32
+B-pair bonus table (Tue/Wed/Thu/Fri):
+  USD_JPY: [3100, 3100, 3100, 3100]
+  GBP_JPY: [3600, 3600, 3600, 3600]
+  AUD_JPY: [1700, 1700, 1700, 1700]
+  EUR_JPY: [3500, 3500, 3500, 3500]
+  CHF_JPY: [3200, 3200, 3200, 3200]
+B-wd bonus table (Tue/Wed/Thu/Fri):
+  USD_JPY: [2500, 2700, 4500, 2200]
+  GBP_JPY: [2500, 2700, 4500, 2200]
+  AUD_JPY: [2500, 2700, 4500, 2200]
+  EUR_JPY: [2500, 2700, 4500, 2200]
+  CHF_JPY: [2500, 2700, 4500, 2200]
+B-cell bonus table (Tue/Wed/Thu/Fri):
+  USD_JPY: [2900, 1000, 5200, 3300]
+  GBP_JPY: [3600, 4300, 4900, 1400]
+  AUD_JPY: [600, 2900, 3500, 0]
+  EUR_JPY: [3100, 3600, 4200, 2900]
+  CHF_JPY: [2300, 1800, 4800, 3800]
+===== PRE =====
+  B0 uniform: total=   +212390 worst-month=  -40509 t=1.37 worst-day=  -29581  max-gotobi-exposure=37,100
+  B-pair    : total=   +224778 worst-month=  -40905 t=1.41 worst-day=  -31849  max-gotobi-exposure=37,240
+  B-wd      : total=   +220126 worst-month=  -33238 t=1.42 worst-day=  -28017  max-gotobi-exposure=41,580
+  B-cell    : total=   +242732 worst-month=  -32205 t=1.52 worst-day=  -27988  max-gotobi-exposure=41,720
+===== POST =====
+  B0 uniform: total=  +1033459 worst-month=  -29206 t=5.13 worst-day=  -35962  max-gotobi-exposure=37,100
+  B-pair    : total=  +1058469 worst-month=  -28624 t=5.22 worst-day=  -35962  max-gotobi-exposure=37,240
+  B-wd      : total=  +1071893 worst-month=  -30595 t=5.01 worst-day=  -38041  max-gotobi-exposure=41,580
+  B-cell    : total=  +1137351 worst-month=  -29914 t=5.24 worst-day=  -39127  max-gotobi-exposure=41,720
+===== FULL =====
+  B0 uniform: total=  +1245850 worst-month=  -40509 t=4.74 worst-day=  -35962  max-gotobi-exposure=37,100
+  B-pair    : total=  +1283247 worst-month=  -40905 t=4.81 worst-day=  -35962  max-gotobi-exposure=37,240
+  B-wd      : total=  +1292019 worst-month=  -33238 t=4.73 worst-day=  -38041  max-gotobi-exposure=41,580
+  B-cell    : total=  +1380083 worst-month=  -32205 t=4.95 worst-day=  -39127  max-gotobi-exposure=41,720
