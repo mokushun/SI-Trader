@@ -1,0 +1,9 @@
+NORMAL Tue: base sum=3500 -> x1.7 x1.4 = 8,330 units
+NORMAL Wed: base sum=5500 -> x1.7 x1.4 = 13,090 units
+NORMAL Thu: base sum=4500 -> x1.7 x1.4 = 10,710 units
+NORMAL Fri: base sum=500 -> x1.7 x1.4 = 1,190 units
+GOTOBI Tue: base sum=14500 -> x1.7 x1.4 = 34,510 units
+GOTOBI Wed: base sum=15000 -> x1.7 x1.4 = 35,700 units
+GOTOBI Thu: base sum=16000 -> x1.7 x1.4 = 38,080 units
+GOTOBI Fri: base sum=9500 -> x1.7 x1.4 = 22,610 units
+x1.7 RT volume: avg=507,229/mo median=503,155 min=384,104 >=500k 74/142 (52%)
