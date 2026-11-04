@@ -1,0 +1,13 @@
+===== PRE =====
+  HAND2   : total=   +212390 worst-month=  -40509 t=1.37 worst-day=  -29581
+  DAYTYPE : total=   +168703 worst-month=  -23977 t=1.79 worst-day=  -18984
+===== POST =====
+  HAND2   : total=  +1033459 worst-month=  -29206 t=5.13 worst-day=  -35962
+  DAYTYPE : total=   +622483 worst-month=  -15949 t=5.17 worst-day=  -21165
+===== FULL =====
+  HAND2   : total=  +1245850 worst-month=  -40509 t=4.74 worst-day=  -35962
+  DAYTYPE : total=   +791185 worst-month=  -23977 t=5.03 worst-day=  -21165
+HAND2: RT volume avg=553,243/mo min=444,856 >=500k 84% | max normal-day exposure=16,100 max gotobi-day=37,100
+DAYTYPE: RT volume avg=298,370/mo min=225,943 >=500k 0% | max normal-day exposure=7,700 max gotobi-day=22,400
+DAYTYPE scale to reach avg 500k RT: x1.68 -> max gotobi exposure=37,537, max normal=12,903
+DAYTYPE x1.68 POST: total=  +1043138 worst-month=  -26728 t=5.17 worst-day=  -35468
