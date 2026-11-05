@@ -1,0 +1,132 @@
+=== 1. Replication: gotobi, Tue/Wed/Fri, sell 09:55 -> buy 10:30 ===
+  pooled 2005-26: n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%   (known: n=651 +1.79 PF1.603 t=4.27)
+  2005-14: n= 296 mean=+1.79pip PF=1.648 t=+3.16 win=56%
+  2015-26: n= 355 mean=+1.80pip PF=1.570 t=+2.95 win=55%
+  non-gotobi control: n=2711 mean=-0.66pip PF=0.854 t=-2.84 win=46%
+  all-days:           n=3362 mean=-0.18pip PF=0.957 t=-0.89 win=48%
+
+=== 2. Entry delay (gotobi, Tue/Wed/Fri, exit 10:30 fixed), pooled ===
+  entry 09:55: n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%
+  entry 09:56: n= 651 mean=+0.97pip PF=1.314 t=+2.45 win=52%
+  entry 09:57: n= 650 mean=+0.70pip PF=1.221 t=+1.81 win=50%
+  entry 09:58: n= 649 mean=+0.38pip PF=1.118 t=+1.00 win=49%
+  entry 09:59: n= 646 mean=+0.05pip PF=1.013 t=+0.12 win=49%
+  entry 10:00: n= 650 mean=-0.20pip PF=0.942 t=-0.54 win=47%
+  entry 10:01: n= 651 mean=-0.56pip PF=0.843 t=-1.52 win=45%
+  entry 10:02: n= 651 mean=-0.70pip PF=0.807 t=-1.91 win=44%
+  entry 10:03: n= 643 mean=-0.61pip PF=0.826 t=-1.69 win=46%
+  entry 10:04: n= 646 mean=-0.69pip PF=0.800 t=-1.99 win=45%
+  entry 10:05: n= 645 mean=-0.79pip PF=0.771 t=-2.34 win=44%
+  entry 10:10: n= 647 mean=-1.05pip PF=0.676 t=-3.51 win=42%
+  -- by half (entry 09:55 / 09:57 / 10:00 / 10:05)
+  entry 595: 2005-14 n= 296 mean=+1.79pip PF=1.648 t=+3.16 win=56% | 2015-26 n= 355 mean=+1.80pip PF=1.570 t=+2.95 win=55%
+  entry 597: 2005-14 n= 295 mean=+1.03pip PF=1.359 t=+1.93 win=52% | 2015-26 n= 355 mean=+0.43pip PF=1.126 t=+0.78 win=48%
+  entry 600: 2005-14 n= 295 mean=+0.16pip PF=1.052 t=+0.30 win=50% | 2015-26 n= 355 mean=-0.51pip PF=0.867 t=-0.96 win=45%
+  entry 605: 2005-14 n= 292 mean=-0.42pip PF=0.865 t=-0.85 win=46% | 2015-26 n= 353 mean=-1.10pip PF=0.707 t=-2.38 win=42%
+
+=== 3. Exit curve (gotobi, Tue/Wed/Fri, entry 09:55 fixed), pooled ===
+  exit 10:00: n= 657 mean=+0.37pip PF=1.228 t=+1.78 win=51%
+  exit 10:05: n= 651 mean=+0.98pip PF=1.472 t=+3.42 win=54%
+  exit 10:10: n= 654 mean=+1.24pip PF=1.496 t=+3.53 win=55%
+  exit 10:15: n= 651 mean=+1.66pip PF=1.645 t=+4.49 win=57%
+  exit 10:20: n= 648 mean=+2.05pip PF=1.783 t=+5.13 win=59%
+  exit 10:25: n= 653 mean=+1.96pip PF=1.698 t=+4.76 win=57%
+  exit 10:30: n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%
+  exit 10:35: n= 651 mean=+1.39pip PF=1.400 t=+3.03 win=57%
+  exit 10:45: n= 649 mean=+1.24pip PF=1.305 t=+2.35 win=56%
+  exit 11:00: n= 653 mean=+1.33pip PF=1.302 t=+2.29 win=57%
+  exit 11:30: n= 644 mean=+2.23pip PF=1.464 t=+3.11 win=57%
+  exit 12:00: n= 645 mean=+1.85pip PF=1.339 t=+2.43 win=54%
+
+=== 4. Weekday scope (gotobi, 09:55 -> 10:30), pooled 2005-26 ===
+  Mon: n= 217 mean=+0.76pip PF=1.202 t=+0.92 win=49%
+  Tue: n= 219 mean=-0.04pip PF=0.989 t=-0.06 win=48%
+  Wed: n= 215 mean=+3.11pip PF=2.295 t=+4.39 win=63%
+  Thu: n= 214 mean=+1.61pip PF=1.447 t=+2.00 win=55%
+  Fri: n= 217 mean=+2.34pip PF=1.866 t=+3.17 win=56%
+  Tue/Wed/Fri (base): n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%
+  Mon-Fri all:        n=1082 mean=+1.55pip PF=1.475 t=+4.53 win=54%
+  Tue-Fri (add Thu):  n= 865 mean=+1.75pip PF=1.559 t=+4.68 win=56%
+  -- Mon and Thu by half
+  Mon: 2005-14 n=  98 mean=-0.71pip PF=0.843 t=-0.56 win=44% | 2015-26 n= 119 mean=+1.98pip PF=1.623 t=+1.84 win=54%
+  Thu: 2005-14 n=  96 mean=+1.48pip PF=1.423 t=+1.31 win=53% | 2015-26 n= 118 mean=+1.71pip PF=1.466 t=+1.50 win=57%
+
+=== 5. Other pairs, main m1.db 2015-2026, gotobi Tue/Wed/Fri 09:55->10:30 ===
+  USD_JPY 2015-20.9: n= 173 mean=+0.78pip PF=1.243 t=+0.97 win=52%
+  USD_JPY 2020.10-26: n= 182 mean=+2.76pip PF=1.892 t=+3.05 win=58%
+  USD_JPY 2015-26: n= 355 mean=+1.80pip PF=1.570 t=+2.95 win=55%
+  EUR_JPY 2015-20.9: n= 171 mean=-0.44pip PF=0.891 t=-0.53 win=47%
+  EUR_JPY 2020.10-26: n= 182 mean=+1.59pip PF=1.458 t=+1.82 win=53%
+  EUR_JPY 2015-26: n= 353 mean=+0.61pip PF=1.163 t=+1.01 win=50%
+  GBP_JPY 2015-20.9: n= 173 mean=-0.78pip PF=0.859 t=-0.68 win=47%
+  GBP_JPY 2020.10-26: n= 182 mean=+1.40pip PF=1.325 t=+1.35 win=51%
+  GBP_JPY 2015-26: n= 355 mean=+0.34pip PF=1.069 t=+0.44 win=49%
+  AUD_JPY 2015-20.9: n= 173 mean=-1.37pip PF=0.718 t=-1.64 win=42%
+  AUD_JPY 2020.10-26: n= 182 mean=-0.05pip PF=0.989 t=-0.05 win=48%
+  AUD_JPY 2015-26: n= 355 mean=-0.69pip PF=0.847 t=-1.15 win=45%
+  CHF_JPY 2015-20.9: n= 173 mean=-1.55pip PF=0.615 t=-2.27 win=37%
+  CHF_JPY 2020.10-26: n= 182 mean=+1.24pip PF=1.364 t=+1.48 win=52%
+  CHF_JPY 2015-26: n= 355 mean=-0.12pip PF=0.968 t=-0.21 win=45%
+
+=== 6. Slippage sensitivity (base trades, extra cost subtracted per trade) ===
+  extra 0.00pip: n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%
+  extra 0.25pip: n= 651 mean=+1.54pip PF=1.500 t=+3.67 win=54%
+  extra 0.50pip: n= 651 mean=+1.29pip PF=1.404 t=+3.08 win=53%
+  extra 1.00pip: n= 651 mean=+0.79pip PF=1.230 t=+1.89 win=50%
+  extra 1.50pip: n= 651 mean=+0.29pip PF=1.079 t=+0.70 win=48%
+  extra 1.79pip: n= 651 mean=+0.00pip PF=1.001 t=+0.01 win=47%
+  extra 2.00pip: n= 651 mean=-0.21pip PF=0.948 t=-0.49 win=45%
+
+=== 7. Distribution / risk (base trades, date order) ===
+  total +1166.9pip over 651 trades (29.9/yr), maxDD(cum) -141.5pip, longest losing streak 8
+  worst5: [-47.5, -42.5, -34.3, -31.3, -29.0]  best5: [49.9, 49.3, 45.9, 42.4, 38.8]
+  percentiles p10=-9.8 median=+1.0 p90=+14.1
+  yearly:
+    2005: n=  30 mean=+2.97pip PF=2.180 t=+1.61 win=53%
+    2006: n=  30 mean=+3.95pip PF=2.910 t=+2.18 win=70%
+    2007: n=  29 mean=+1.67pip PF=1.749 t=+1.18 win=52%
+    2008: n=  32 mean=-1.19pip PF=0.800 t=-0.45 win=50%
+    2009: n=  30 mean=+4.62pip PF=3.657 t=+2.69 win=70%
+    2010: n=  29 mean=+2.76pip PF=2.184 t=+1.82 win=66%
+    2011: n=  29 mean=+2.69pip PF=2.187 t=+1.69 win=66%
+    2012: n=  27 mean=-0.40pip PF=0.802 t=-0.46 win=37%
+    2013: n=  32 mean=+0.88pip PF=1.260 t=+0.49 win=53%
+    2014: n=  28 mean=-0.08pip PF=0.973 t=-0.05 win=46%
+    2015: n=  30 mean=-3.69pip PF=0.323 t=-1.90 win=50%
+    2016: n=  31 mean=+4.32pip PF=2.828 t=+2.12 win=52%
+    2017: n=  30 mean=+4.27pip PF=4.636 t=+2.49 win=73%
+    2018: n=  28 mean=-2.96pip PF=0.476 t=-1.60 win=32%
+    2019: n=  32 mean=+0.61pip PF=1.301 t=+0.53 win=47%
+    2020: n=  29 mean=+2.72pip PF=2.266 t=+1.28 win=66%
+    2021: n=  30 mean=+0.96pip PF=1.484 t=+0.81 win=63%
+    2022: n=  30 mean=+2.62pip PF=1.704 t=+1.19 win=67%
+    2023: n=  30 mean=+1.41pip PF=1.442 t=+0.85 win=53%
+    2024: n=  30 mean=+3.47pip PF=2.030 t=+1.32 win=50%
+    2025: n=  30 mean=+7.14pip PF=3.268 t=+2.36 win=63%
+    2026: n=  25 mean=+0.12pip PF=1.030 t=+0.05 win=44%
+  negative years: [2008, 2012, 2014, 2015, 2018]
+
+=== 8. Mechanism check: by morning mid move 00:00->09:55 (descriptive) ===
+  morning <=0: n= 249 mean=+2.07pip PF=1.648 t=+2.79 win=54%
+  0< m <=10: n= 102 mean=+0.53pip PF=1.193 t=+0.62 win=55%
+  10< m <=25: n= 137 mean=+2.50pip PF=2.417 t=+3.97 win=61%
+  m >25: n= 163 mean=+1.57pip PF=1.414 t=+1.61 win=55%
+  non-gotobi morning <=0: n=1200 mean=-1.01pip PF=0.797 t=-2.73 win=44%
+  non-gotobi 0< m <=10: n= 459 mean=-0.26pip PF=0.924 t=-0.54 win=44%
+  non-gotobi 10< m <=25: n= 507 mean=-0.54pip PF=0.859 t=-1.22 win=49%
+  non-gotobi m >25: n= 522 mean=-0.20pip PF=0.958 t=-0.35 win=49%
+
+=== 9. Entry-minute spread on gotobi days (09:55 bar, Tue/Wed/Fri) ===
+  gotobi:     n=658 median spread 1.70pip mean 1.78
+  non-gotobi: n=2736 median spread 1.70pip mean 1.76
+
+=== 10. Pre-entry (gotobi, Tue/Wed/Fri, exit 10:30): sell BEFORE the print ===
+  entry 09:48: n= 647 mean=+1.25pip PF=1.328 t=+2.55 win=52%
+  entry 09:49: n= 646 mean=+1.30pip PF=1.349 t=+2.65 win=53%
+  entry 09:50: n= 648 mean=+1.33pip PF=1.354 t=+2.72 win=54%
+  entry 09:51: n= 645 mean=+1.48pip PF=1.404 t=+3.05 win=53%
+  entry 09:52: n= 650 mean=+1.67pip PF=1.481 t=+3.56 win=54%
+  entry 09:53: n= 651 mean=+1.89pip PF=1.581 t=+4.21 win=56%
+  entry 09:54: n= 651 mean=+1.93pip PF=1.614 t=+4.37 win=56%
+  entry 09:55: n= 651 mean=+1.79pip PF=1.603 t=+4.27 win=56%
+  last-minute mid move 09:54->09:55 open on gotobi days: n=658 mean=-0.05pip t=-0.35
