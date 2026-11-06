@@ -1,0 +1,56 @@
+Thursdays: 619  bars needed: 1857
+
+== USD_JPY ==
+  seg 05:35->09:55 FULL           n= 596 mean=  -4.92pip PF=0.579 t=-4.43
+  seg 05:35->09:55 PRE            n= 281 mean=  -1.87pip PF=0.794 t=-1.35
+  seg 05:35->09:55 POST           n= 315 mean=  -7.64pip PF=0.456 t=-4.52
+  seg 05:35->09:55 GOTOBI         n= 116 mean=  -5.94pip PF=0.490 t=-2.57
+  seg 05:35->09:55 NONGOTOBI      n= 480 mean=  -4.67pip PF=0.601 t=-3.71
+  seg 05:35->09:55 POST_GOTOBI    n=  62 mean= -12.59pip PF=0.216 t=-3.94
+  seg 05:35->09:55 POST_NONGOTOBI n= 253 mean=  -6.43pip PF=0.526 t=-3.30
+  Thu trade 00:00->05:35 FULL n= 596 mean=  +1.65pip PF=1.132 t=+0.98
+  Thu trade 00:00->09:55 FULL n= 596 mean=  -3.26pip PF=0.820 t=-1.63
+
+== EUR_JPY ==
+  seg 05:35->09:55 FULL           n= 578 mean=  -3.02pip PF=0.709 t=-2.81
+  seg 05:35->09:55 PRE            n= 272 mean=  -0.76pip PF=0.911 t=-0.51
+  seg 05:35->09:55 POST           n= 306 mean=  -5.02pip PF=0.580 t=-3.27
+  seg 05:35->09:55 GOTOBI         n= 116 mean=  -2.49pip PF=0.734 t=-1.16
+  seg 05:35->09:55 NONGOTOBI      n= 462 mean=  -3.15pip PF=0.704 t=-2.56
+  seg 05:35->09:55 POST_GOTOBI    n=  61 mean=  -7.13pip PF=0.417 t=-2.57
+  seg 05:35->09:55 POST_NONGOTOBI n= 245 mean=  -4.49pip PF=0.622 t=-2.51
+  Thu trade 00:00->05:35 FULL n= 578 mean=  +2.86pip PF=1.257 t=+1.88
+  Thu trade 00:00->09:55 FULL n= 578 mean=  -0.16pip PF=0.990 t=-0.09
+
+== GBP_JPY ==
+  seg 05:35->09:55 FULL           n= 605 mean=  -5.39pip PF=0.632 t=-3.84
+  seg 05:35->09:55 PRE            n= 290 mean=  -2.05pip PF=0.841 t=-0.99
+  seg 05:35->09:55 POST           n= 315 mean=  -8.46pip PF=0.479 t=-4.49
+  seg 05:35->09:55 GOTOBI         n= 119 mean=  -5.65pip PF=0.594 t=-2.04
+  seg 05:35->09:55 NONGOTOBI      n= 486 mean=  -5.32pip PF=0.641 t=-3.30
+  seg 05:35->09:55 POST_GOTOBI    n=  62 mean= -13.17pip PF=0.267 t=-3.55
+  seg 05:35->09:55 POST_NONGOTOBI n= 253 mean=  -7.30pip PF=0.538 t=-3.38
+  Thu trade 00:00->05:35 FULL n= 605 mean=  +3.23pip PF=1.201 t=+1.52
+  Thu trade 00:00->09:55 FULL n= 605 mean=  -2.15pip PF=0.901 t=-0.91
+
+== AUD_JPY ==
+  seg 05:35->09:55 FULL           n= 611 mean=  -3.67pip PF=0.645 t=-3.69
+  seg 05:35->09:55 PRE            n= 296 mean=  -2.45pip PF=0.755 t=-1.61
+  seg 05:35->09:55 POST           n= 315 mean=  -4.82pip PF=0.549 t=-3.71
+  seg 05:35->09:55 GOTOBI         n= 119 mean=  -3.24pip PF=0.695 t=-1.35
+  seg 05:35->09:55 NONGOTOBI      n= 492 mean=  -3.77pip PF=0.633 t=-3.46
+  seg 05:35->09:55 POST_GOTOBI    n=  62 mean=  -7.68pip PF=0.382 t=-2.70
+  seg 05:35->09:55 POST_NONGOTOBI n= 253 mean=  -4.11pip PF=0.599 t=-2.82
+  Thu trade 00:00->05:35 FULL n= 611 mean=  +1.20pip PF=1.118 t=+0.88
+  Thu trade 00:00->09:55 FULL n= 611 mean=  -2.47pip PF=0.839 t=-1.49
+
+== CHF_JPY ==
+  seg 05:35->09:55 FULL           n= 610 mean=  -1.70pip PF=0.799 t=-1.92
+  seg 05:35->09:55 PRE            n= 297 mean=  -0.05pip PF=0.993 t=-0.04
+  seg 05:35->09:55 POST           n= 313 mean=  -3.27pip PF=0.678 t=-2.37
+  seg 05:35->09:55 GOTOBI         n= 118 mean=  -1.78pip PF=0.770 t=-1.03
+  seg 05:35->09:55 NONGOTOBI      n= 492 mean=  -1.68pip PF=0.805 t=-1.65
+  seg 05:35->09:55 POST_GOTOBI    n=  61 mean=  -6.53pip PF=0.427 t=-2.44
+  seg 05:35->09:55 POST_NONGOTOBI n= 252 mean=  -2.48pip PF=0.748 t=-1.57
+  Thu trade 00:00->05:35 FULL n= 610 mean=  -0.28pip PF=0.976 t=-0.21
+  Thu trade 00:00->09:55 FULL n= 610 mean=  -1.98pip PF=0.861 t=-1.32
