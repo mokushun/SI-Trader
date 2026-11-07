@@ -1,0 +1,13 @@
+=== window 2026-01-01 -> end (312,160 bars, 10.1 months) ===
+       variant entries exits exits/mo   realized avg/exit worstFloat maxOpen endOpen  endFloat
+          BASE     374   313     31.0      16369     52.3     -20527     160      61    -19234
+        STEP20     147   112     11.1       5691     50.8      -5749      39      35     -5058
+      CAP_HALF     281   250     24.8      12949     51.8     -10828      80      31    -10182
+         TAPER     228   186     18.4       9386     50.5     -11272      57      42    -10419
+   STEP20+TS25     217   186     18.4       4218     22.7      -4450      34      31     -3846
+ CAP_HALF+TS25     624   581     57.6      13213     22.7     -10175      80      43     -9608
+=== window 2025-01-01 -> end (681,759 bars, 22.1 months) ===
+          BASE entries=871 exits=793 exits/mo=35.9 realized=38570 avg/exit=48.6 worstFloat=-37540 maxOpen=160 endOpen=78 endFloat=-19281
+      CAP_HALF entries=558 exits=510 exits/mo=23.1 realized=23582 avg/exit=46.2 worstFloat=-22609 maxOpen=80 endOpen=48 endFloat=-10230
+ CAP_HALF+TS25 entries=1058 exits=1015 exits/mo=46.0 realized=23343 avg/exit=23.0 worstFloat=-21889 maxOpen=80 endOpen=43 endFloat=-9691
+        STEP20 entries=461 exits=419 exits/mo=19.0 realized=19926 avg/exit=47.6 worstFloat=-20959 maxOpen=72 endOpen=42 endFloat=-4967
