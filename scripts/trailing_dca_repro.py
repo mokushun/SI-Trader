@@ -76,7 +76,7 @@ def dates_of(bars):
     return np.array([datetime.fromtimestamp(x, JST).date() for x in bars[:, 0]])
 
 
-def sim_dca(bars, pip, fx, dates):
+def sim_dca(bars, pip, fx, dates, trail_start=TRAIL_START):
     bo, bh, bl, bc = bars[:, 1], bars[:, 2], bars[:, 3], bars[:, 4]
     ao, ah, ac = bars[:, 5], bars[:, 6], bars[:, 8]
     entry = np.empty(0)
@@ -92,7 +92,7 @@ def sim_dca(bars, pip, fx, dates):
         # ---- exits ----
         if entry.size:
             peak = np.maximum(peak, bh[i])
-            armed = (peak - entry) / pip >= TRAIL_START
+            armed = (peak - entry) / pip >= trail_start
             if armed.any():
                 stop = peak - TRAIL_STEP * pip
                 hit = armed & (bl[i] <= stop)
