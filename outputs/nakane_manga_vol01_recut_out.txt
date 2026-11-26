@@ -1,0 +1,26 @@
+== IN 09:00 -> 09:55 exit, USD_JPY, Tue/Wed/Fri ==
+  FULL 2015-2026 all: n=1840 mean=-0.07pip (-7yen/trade) PF=0.987 t=-0.19 total=-13,550yen
+  FULL 2015-2026 gotobi: n=355 mean=+0.30pip (+30yen/trade) PF=1.053 t=0.36 total=+10,550yen
+  LAST10Y 2017-2026 all: n=1531 mean=+0.37pip (+37yen/trade) PF=1.068 t=0.91 total=+57,380yen
+  LAST10Y 2017-2026 gotobi: n=294 mean=+0.60pip (+60yen/trade) PF=1.114 t=0.68 total=+17,690yen
+  2015-2020 cal all: n=930 mean=-0.71pip (-71yen/trade) PF=0.863 t=-1.64 total=-66,490yen
+  2015-2020 cal gotobi: n=180 mean=+0.78pip (+78yen/trade) PF=1.173 t=0.78 total=+14,060yen
+  2021-2026 cal all: n=910 mean=+0.58pip (+58yen/trade) PF=1.091 t=0.93 total=+52,940yen
+  2021-2026 cal gotobi: n=175 mean=-0.20pip (-20yen/trade) PF=0.970 t=-0.15 total=-3,510yen
+  PRE ..2020-09 all: n=892 mean=-0.62pip (-62yen/trade) PF=0.882 t=-1.37 total=-55,090yen
+  PRE ..2020-09 gotobi: n=173 mean=+0.76pip (+76yen/trade) PF=1.165 t=0.74 total=+13,210yen
+  POST 2020-10.. all: n=948 mean=+0.44pip (+44yen/trade) PF=1.069 t=0.73 total=+41,540yen
+  POST 2020-10.. gotobi: n=182 mean=-0.15pip (-15yen/trade) PF=0.977 t=-0.11 total=-2,660yen
+== IN 00:00 -> 09:55 exit, USD_JPY, Tue/Wed/Fri ==
+  FULL 2015-2026 all: n=1826 mean=+1.90pip (+190yen/trade) PF=1.166 t=2.29 total=+346,910yen
+  FULL 2015-2026 gotobi: n=355 mean=+5.69pip (+569yen/trade) PF=1.574 t=3.14 total=+201,880yen
+  LAST10Y 2017-2026 all: n=1520 mean=+2.65pip (+265yen/trade) PF=1.242 t=2.92 total=+402,600yen
+  LAST10Y 2017-2026 gotobi: n=294 mean=+6.29pip (+629yen/trade) PF=1.669 t=3.19 total=+184,970yen
+  2015-2020 cal all: n=921 mean=-0.07pip (-7yen/trade) PF=0.994 t=-0.07 total=-6,730yen
+  2015-2020 cal gotobi: n=180 mean=+4.84pip (+484yen/trade) PF=1.498 t=1.95 total=+87,150yen
+  2021-2026 cal all: n=905 mean=+3.91pip (+391yen/trade) PF=1.337 t=2.99 total=+353,640yen
+  2021-2026 cal gotobi: n=175 mean=+6.56pip (+656yen/trade) PF=1.648 t=2.47 total=+114,730yen
+  PRE ..2020-09 all: n=883 mean=+0.12pip (+12yen/trade) PF=1.011 t=0.12 total=+11,020yen
+  PRE ..2020-09 gotobi: n=173 mean=+5.09pip (+509yen/trade) PF=1.522 t=1.99 total=+87,990yen
+  POST 2020-10.. all: n=943 mean=+3.56pip (+356yen/trade) PF=1.310 t=2.83 total=+335,890yen
+  POST 2020-10.. gotobi: n=182 mean=+6.26pip (+626yen/trade) PF=1.620 t=2.44 total=+113,890yen
