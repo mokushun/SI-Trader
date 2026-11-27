@@ -1,0 +1,86 @@
+
+=== GBP_USD (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1575 mean=  -0.38 PF=0.932 t=-1.00
+  post30 mid (T->T+30)               n= 1575 mean=  +0.55 PF=1.133 t=+1.82
+  FADE30 mid gross                   n= 1575 mean=  +0.34 PF=1.079 t=+1.11
+  FADE30 exec exact                  n= 1575 mean=  -1.40 PF=0.728 t=-4.61
+  FADE30 big exec exact              n=  394 mean=  -0.06 PF=0.987 t=-0.09
+  T-5->T mid                         n= 1575 mean=  +0.46 PF=1.264 t=+3.12
+  ME post30 mid (USD dir)            n=   72 mean=  +3.44 PF=2.100 t=+2.35
+  ME USD-buy exec T->T+30            n=   72 mean=  +1.68 PF=1.453 t=+1.15
+  ME USD-buy exec <=2023             n=   39 mean=  +1.82 PF=1.419 t=+0.78
+  ME USD-buy exec 2024+              n=   33 mean=  +1.52 PF=1.512 t=+0.90
+
+=== EUR_USD (audit window 2020-01-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1770 mean=  -0.50 PF=0.894 t=-1.70
+  post30 mid (T->T+30)               n= 1770 mean=  +0.27 PF=1.079 t=+1.17
+  FADE30 mid gross                   n= 1770 mean=  +0.66 PF=1.206 t=+2.88
+  FADE30 exec exact                  n= 1770 mean=  -0.78 PF=0.799 t=-3.42
+  FADE30 big exec exact              n=  443 mean=  -0.01 PF=0.997 t=-0.02
+  T-5->T mid                         n= 1770 mean=  +0.26 PF=1.170 t=+2.23
+  ME post30 mid (USD dir)            n=   81 mean=  +2.11 PF=1.656 t=+1.64
+  ME USD-buy exec T->T+30            n=   81 mean=  +0.64 PF=1.165 t=+0.50
+  ME USD-buy exec <=2023             n=   48 mean=  -1.06 PF=0.797 t=-0.58
+  ME USD-buy exec 2024+              n=   33 mean=  +3.11 PF=2.678 t=+1.93
+
+=== USD_JPY (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1576 mean=  +0.63 PF=1.131 t=+1.74
+  post30 mid (T->T+30)               n= 1576 mean=  +0.04 PF=1.010 t=+0.13
+  FADE30 mid gross                   n= 1576 mean=  +0.02 PF=1.005 t=+0.07
+  FADE30 exec exact                  n= 1576 mean=  -1.50 PF=0.703 t=-4.51
+  FADE30 big exec exact              n=  395 mean=  -3.16 PF=0.570 t=-3.49
+  T-5->T mid                         n= 1576 mean=  +0.46 PF=1.251 t=+3.00
+  ME post30 mid (USD dir)            n=   72 mean=  +3.62 PF=2.428 t=+2.74
+  ME USD-buy exec T->T+30            n=   72 mean=  +2.10 PF=1.686 t=+1.59
+  ME USD-buy exec <=2023             n=   39 mean=  -0.87 PF=0.761 t=-0.65
+  ME USD-buy exec 2024+              n=   33 mean=  +5.61 PF=3.330 t=+2.45
+
+=== EUR_GBP (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1575 mean=  +0.02 PF=1.009 t=+0.13
+  post30 mid (T->T+30)               n= 1575 mean=  -0.22 PF=0.895 t=-1.59
+  FADE30 mid gross                   n= 1575 mean=  +0.39 PF=1.218 t=+2.81
+  FADE30 exec exact                  n= 1575 mean=  -1.01 PF=0.599 t=-7.29
+  FADE30 big exec exact              n=  394 mean=  -0.12 PF=0.954 t=-0.33
+  T-5->T mid                         n= 1575 mean=  -0.05 PF=0.957 t=-0.59
+
+=== GBP_JPY (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1575 mean=  +0.32 PF=1.045 t=+0.62
+  post30 mid (T->T+30)               n= 1575 mean=  +0.79 PF=1.139 t=+1.83
+  FADE30 mid gross                   n= 1575 mean=  +0.93 PF=1.166 t=+2.17
+  FADE30 exec exact                  n= 1575 mean=  -1.90 PF=0.730 t=-4.42
+  FADE30 big exec exact              n=  394 mean=  -2.63 PF=0.720 t=-2.27
+  T-5->T mid                         n= 1575 mean=  +1.24 PF=1.498 t=+5.49
+
+=== AUD_USD (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1572 mean=  +0.13 PF=1.039 t=+0.55
+  post30 mid (T->T+30)               n= 1572 mean=  -0.25 PF=0.915 t=-1.30
+  FADE30 mid gross                   n= 1572 mean=  +0.20 PF=1.073 t=+1.03
+  FADE30 exec exact                  n= 1572 mean=  -1.09 PF=0.679 t=-5.66
+  FADE30 big exec exact              n=  394 mean=  -1.20 PF=0.710 t=-2.58
+  T-5->T mid                         n= 1572 mean=  +0.50 PF=1.487 t=+5.65
+  ME post30 mid (USD dir)            n=   72 mean=  +2.35 PF=2.022 t=+2.24
+  ME USD-buy exec T->T+30            n=   72 mean=  +1.06 PF=1.384 t=+1.01
+  ME USD-buy exec <=2023             n=   39 mean=  +0.05 PF=1.012 t=+0.03
+  ME USD-buy exec 2024+              n=   33 mean=  +2.26 PF=2.620 t=+2.08
+
+=== USD_CHF (audit window 2020-10-01..2026-10-28) ===
+  pre30 mid (T-30->T)                n= 1570 mean=  +0.12 PF=1.032 t=+0.46
+  post30 mid (T->T+30)               n= 1570 mean=  -0.38 PF=0.880 t=-1.82
+  FADE30 mid gross                   n= 1570 mean=  +0.61 PF=1.227 t=+2.91
+  FADE30 exec exact                  n= 1570 mean=  -0.87 PF=0.745 t=-4.17
+  FADE30 big exec exact              n=  393 mean=  -0.35 PF=0.906 t=-0.70
+  T-5->T mid                         n= 1570 mean=  -0.06 PF=0.958 t=-0.61
+  ME post30 mid (USD dir)            n=   71 mean=  +2.21 PF=1.615 t=+1.51
+  ME USD-buy exec T->T+30            n=   71 mean=  +0.71 PF=1.167 t=+0.48
+  ME USD-buy exec <=2023             n=   38 mean=  -1.52 PF=0.754 t=-0.64
+  ME USD-buy exec 2024+              n=   33 mean=  +3.28 PF=2.590 t=+2.12
+
+=== USD composite (bp) ===
+  post30 USD month-end               n=   72 mean=  +2.74 PF=2.299 t=+2.70
+  post30 USD non-ME                  n= 1502 mean=  -0.26 PF=0.911 t=-1.32
+  pre30 USD month-end                n=   72 mean=  -1.51 PF=0.778 t=-0.75
+  post30 USD quarter-end             n=   24 mean=  +0.96 PF=1.338 t=+0.57
+  post30 USD ME <=2023               n=   39 mean=  +1.28 PF=1.415 t=+0.83
+  post30 USD ME 2024+                n=   33 mean=  +4.47 PF=5.656 t=+3.67
+
+AUDIT DONE
